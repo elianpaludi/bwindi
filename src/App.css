@@ -1,0 +1,32 @@
+a{
+    color: white;
+}
+#myVideo {
+    align-self: center;
+    height: 450px;
+    margin-top: 20px;
+    object-fit:fill;
+    width: 1000px;
+    border-radius: 20px;
+  }
+
+
+.line9000000 {
+    margin: auto;
+    margin-left: -2%;
+    width: 90%;
+    border-bottom: 1px solid #fff;
+    display: block;
+    padding-top: 30px;
+    margin: 0;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+

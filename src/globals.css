@@ -1,0 +1,140 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,800|Jost:400,700,500,600");
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/620b44c4652ab600ed8315b2.620b44c71baac83c713aeae7.NA5wQWq.rcp.png");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.overlap-group2-item-1.valign-text-middle {
+  font-size: 11px;
+}
+.buy-a-bwindi-on-open-sea a {
+  color: #000;
+}
+
+
+/* MJ CSS START  */
+
+
+.flex-row-1.footerBottomArea {
+  align-items: center;
+  padding-top: 13px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  margin: 0;
+}
+
+.terms-conditions {
+  width: auto;
+  margin-right: 20px;
+}
+
+.flex-row-1.footerBottomArea a {
+  font-size: 14px;
+}
+
+.join-our-community, .stay-tuned-for-more {
+  font-size: 14px;
+}
+
+.homepageVideo,
+.markectVideo {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-top: 70px;
+}
+
+.BwinidiClub video#myVideo,
+.homepageVideo video#homepageVideo,
+.markectVideo video#marketVideo {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.BwinidiClub {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-top: 70px;
+}
+
+.the-club-provides-a {
+  margin-top: -8px !important;
+}
+
+.RoadmapActivation {
+  font-size: 35px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+.RoadmapActivation span {
+  font-weight: 400;
+}
+
+div#team .the-team {
+  font-size: 35px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  color: #fff;
+  font-family: var(--font-family-montserrat-semibold);
+  line-height: 1;
+  min-height: unset;
+}
+
+span.fwn {
+  font-weight: 400;
+}
+
+div#team {
+  align-items: center;
+}
+
+div#team div {
+  min-height: unset;
+}
+
+.overlap-group2-1 .overlap-group2-item-1 a:hover {
+  color: #F8BA35;
+  text-decoration: underline;
+}

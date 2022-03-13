@@ -1,0 +1,354 @@
+:root {
+  --black: #000000;
+  --gray-chateau: #a2a9af;
+  --kashmir-blue: #4d6194;
+  --saffron: #f8ba35;
+  --white: #ffffff;
+  --white-2: #ffffff1a;
+  --zircon: #f3fbfe;
+
+  --font-size-l: 26px;
+  --font-size-m: 20px;
+  --font-size-s: 16px;
+  --font-size-xl: 36px;
+  --font-size-xs: 15px;
+  --font-size-xxs: 14px;
+  --font-size-xxxs: 13px;
+  --font-size-xxxss: 11px;
+
+  --font-family-jost: "Jost", Helvetica;
+  --font-family-jost-extrabold: "Jost-ExtraBold", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-montserrat-medium: "Montserrat-Medium", Helvetica;
+  --font-family-montserrat-regular: "Montserrat-Regular", Helvetica;
+  --font-family-montserrat-semibold: "Montserrat-SemiBold", Helvetica;
+  --font-family-undefined-regular: "undefined-Regular", Helvetica;
+}
+.jost-semi-bold-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xxxss);
+  font-style: normal;
+  font-weight: 600;
+}
+.jost-semi-bold-white-131px {
+  color: var(--white);
+  background-color: rgb(48, 48, 48);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xxxss);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jost-medium-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-jost);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.jost-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-white-20px {
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-saffron-20px {
+  color: var(--saffron);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-bold-zircon-14px {
+  color: var(--zircon);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-semi-bold-white-15px {
+  color: var(--white);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jost-normal-gray-chateau-14px {
+  color: var(--gray-chateau);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.jost-medium-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.montserrat-semi-bold-white-50px {
+  color: #ffffff;
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-semi-bold-white-507px {
+  color: #ffffff;
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.montserrat-semi-bold-white-500px {
+  color: #ffffff;
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-semi-bold-white-505px {
+  color: #ffffff;
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+.montserrat-medium-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.jost-medium-saffron-20px {
+  color: var(--saffron);
+  font-family: var(--font-family-jost);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.montserrat-semi-bold-saffron-16px {
+  color: var(--saffron);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserrat-medium-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.montserrat-bold-kashmir-blue-80px {
+  color: var(--kashmir-blue);
+  font-family: var(--font-family-montserrat);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-saffron-80px {
+  color: var(--saffron);
+  font-family: var(--font-family-montserrat);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-semi-bold-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jost-semi-bold-white-364px {
+  color: var(--white);
+  font-family: var(--font-family-jost);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+.jost-semi-bold-white-363px {
+  color: var(--white);
+  font-family: var(--font-family-jost);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.montserrat-bold-white-80px {
+  font-family: var(--font-family-montserrat);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-extra-bold-white-96px {
+  font-family: var(--font-family-montserrat);
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+}
+.montserrat-extra-bold-white-960px {
+  font-family: var(--font-family-montserrat);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+}
+.montserrat-extra-bold-white-196px {
+  font-family: Helvetica;
+  font-size: 50px;
+  font-style: normal;
+  -webkit-text-stroke: 2px var(--white);
+  color: transparent;
+  /* font-family: var(--font-family-montserrat); */
+  font-weight: 800;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  left: 0;
+  letter-spacing: 9.6px;
+  opacity: 0;
+  /* position: absolute; */
+  text-align: center;
+  top: 0;
+  transform: translate(0, 25px);
+}
+.montserrat-regular-normal-white-45px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-regular-normal-white-450px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-white-78px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 700;
+}
+.montserrat-bold-white-780px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-bold-white-64px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+.montserrat-bold-white-640px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  margin-top: 15px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+.montserrat-bold-white-37px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+}
+.montserrat-bold-white-370px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.jost-semi-bold-saffron-20px {
+  color: var(--saffron);
+  font-family: var(--font-family-jost);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.jost-extra-extra-bold-saffron-21px {
+  color: var(--saffron);
+  font-family: var(--font-family-jost-extrabold);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.border-1px-gray-chateau {
+  border: 1px solid var(--gray-chateau);
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-height-none {
+  line-height: 0;
+}
+
+.link:hover {
+  text-decoration: none;
+}

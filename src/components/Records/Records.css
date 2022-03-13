@@ -1,0 +1,255 @@
+.records {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  min-height: 630px;
+  height: auto;
+  /* padding: 35.8px 65px; */
+  padding: 20px 10px;
+  /* width: 1435px; */
+  width: 100%;
+}
+
+.flex-row-14 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 234px;
+  min-width: 1200px;
+  margin: auto;
+}
+
+.flex-col-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 234px;
+  width: 300px;
+}
+.set_hit {
+  height: 24px;
+  margin-left: 5%;
+  margin-right: auto;
+  /* display: table-column-group; */
+  float: none;
+  /* padding: 0px; */
+
+margin: auto;
+}
+.bwindi_logo-4 {
+  height: 40px;
+  width: 249px;
+}
+
+.records-1 {
+  letter-spacing: 0;
+  margin-left: 4.1px;
+  margin-top: 96px;
+  min-height: 98px;
+  min-width: 341px;
+  opacity: 0;
+  text-align: center;
+  text-decoration: underline;
+  transform: translate(-25px, 0);
+}
+
+.records-1.animate-enter14 {
+  animation: animate-enter14-frames 0.80s ease-in-out 0.00s 1 normal forwards;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+.flex-col-9 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 71px; */
+  /* margin-top: 3px; */
+  min-height: 200px;
+  position: relative;
+  width: 900px;
+}
+.flex-row-2111 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  margin-left: 7px;
+  margin-top: 12px;
+  min-width: 990px;
+  /* margin: auto; */
+}
+.overlap-group2-1 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  min-width: 888px;
+}
+
+.overlap-group2-item-1 {
+  cursor: pointer;
+  height: 35px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 111px;
+}
+
+.overlap-group2-item-1:hover {
+  color: #F8BA35
+}
+
+.line-4-2 {
+  height: 1px;
+  margin-top: 1200px;
+  width: 1200px;
+}
+
+.flex-row-15 {
+  align-items: flex-start;
+  display: flex;
+  height: 27px;
+  margin-right: 13.0px;
+  margin-top: 44px;
+  min-width: 1187px;
+}
+
+.join-our-community-4 {
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-align: center;
+  white-space: nowrap;
+  width: 132px;
+}
+
+.stay-tuned-for-more-4 {
+  -webkit-text-stroke: 1px var(--black);
+  align-self: flex-end;
+  height: 23px;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  margin-left: 640px;
+  min-width: 415px;
+  text-shadow: 0px 4px 4px #00000040;
+  white-space: nowrap;
+}
+
+.flex-row-16 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 10.0px;
+  margin-top: 6px;
+  min-width: 1190px;
+}
+
+.twitter-4 {
+  cursor: pointer;
+  height: 32px;
+  transition: all 0.8s ease-in-out;
+  width: 32px;
+}
+
+.twitter-4:hover,
+.flex-row-item-4:hover {
+  transform: rotate(360deg);
+}
+
+.flex-row-item-4 {
+  cursor: pointer;
+  height: 32px;
+  margin-left: 12px;
+  transition: all 0.8s ease-in-out;
+  width: 32px;
+}
+
+.mail-container-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  height: 32px;
+  margin-left: 518px;
+  min-width: 320px;
+  padding: 5px 11px;
+}
+
+.mail-4 {
+  align-self: center;
+  height: 16px;
+  margin-bottom: 2.0px;
+  width: 16px;
+}
+
+.your-e-mail-4 {
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-left: 12px;
+  white-space: nowrap;
+}
+
+.subscribe-7 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  margin-left: 20px;
+  min-width: 80px;
+  padding: 0 9px;
+  transition: all 0.2s ease-in-out;
+}
+
+.subscribe-7:hover {
+  transform: scale(1.1);
+}
+
+.subscribe-8 {
+  height: 21px;
+  letter-spacing: 0;
+  line-height: 21px;
+  min-width: 62px;
+  white-space: nowrap;
+}
+
+.flex-row-17 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  margin-left: 64.0px;
+  margin-top: 13px;
+  min-width: 990px;
+}
+
+.terms-conditions-6 {
+  /* -webkit-text-stroke: 1px var(--black); */
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-shadow: 0px 4px 4px #00000040;
+  white-space: nowrap;
+  width: 220px;
+}
+
+.copyright-4 {
+  /* -webkit-text-stroke: 1px var(--black); */
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-left: 550px;
+  text-shadow: 0px 4px 4px #00000040;
+  white-space: nowrap;
+}
+
+@keyframes animate-enter14-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
