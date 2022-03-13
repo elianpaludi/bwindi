@@ -292,6 +292,8 @@ const marketplaceData = {
 const mainPageData = {
   bwindi_Logo: "/img/bwindi-logo@1x.png",
   overlapGroup1: "/img/bwindi-club-1@1x.png",
+  BWINDICLUBOpen: "/video/Digital-Jungle.mp4",
+  BWINDIOMARKETpen: "/video/Digital-Jungle.mp4",
   bwindiClub1: "BWINDI CLUB",
   overlapGroup2: "/img/bwindi-art02-2@1x.png",
   bwindiClub2: "BWINDI MARKETPLACE",

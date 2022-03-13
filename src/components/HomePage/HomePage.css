@@ -63,7 +63,9 @@
   flex-direction: column;
   margin-top: 22px;
   min-height: 20px;
-  width: 1200px;
+  width: 100%;
+  max-width: 1230px;
+  padding: 0 15px;
 }
 
 .bwindi-art02-2 {
@@ -79,7 +81,10 @@
   align-self: flex-start;
   display: flex;
   margin-top: 38px;
-  min-width: 1200px;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 div#buybwindi .membership-container {
   height: 450px;
@@ -160,7 +165,8 @@ div#buybwindi .membership-fee.valign-text-middle.animate-enter7 {
   height: 2px;
   margin-right: 4.0px;
   margin-top: 28px;
-  width: 893px;
+  max-width: 893px;
+  width: 100%;
 }
 
 .buy-bwindi {
@@ -168,8 +174,12 @@ div#buybwindi .membership-fee.valign-text-middle.animate-enter7 {
   display: flex;
   margin-left: 4.0px;
   margin-top: 35px;
-  min-width: 1200px;
-  width: 1200px;
+  max-width: 1230px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .membership-container {
@@ -310,8 +320,12 @@ div#buybwindi .membership-fee.valign-text-middle.animate-enter7 {
   display: flex;
   margin-left: 1.0px;
   margin-top: 25px;
-  min-width: 1200px;
-  width: 1200px;
+  max-width: 1230px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .each-bwindi-nft-is-u {
@@ -376,9 +390,13 @@ div#buybwindi .membership-fee.valign-text-middle.animate-enter7 {
   height: 175px;
   margin-left: 1.0px;
   margin-top: 25px;
-  min-width: 1200px;
-  width: 1200px;
+  max-width: 1230px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .the-impenetrable-digital-jungle {
@@ -420,7 +438,9 @@ div#buybwindi .membership-fee.valign-text-middle.animate-enter7 {
   height: 2851px;
   margin-top: 25px;
   position: relative;
-  width: 1302px;
+  max-width: 1230px !important;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .line-4 {
@@ -439,7 +459,7 @@ div#buybwindi .membership-fee.valign-text-middle.animate-enter7 {
   min-height: 2851px;
   position: absolute;
   top: 0;
-  width: 1200px;
+  width: 100%;
   margin: 0px 0px 0px 5%;
   text-align: left;
 }
@@ -885,9 +905,12 @@ group-1.add_sty {
   line-height: 35px;
   margin-right: 4.0px;
   margin-top: 30px;
-  min-width: 1001px;
+  max-width: 1001px;
+  width: 100%;
   text-align: center;
   white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .line-2-1 {
@@ -1123,7 +1146,8 @@ transform: translate(0,0);
   max-width: 1200px;
   margin: 0 auto;
   min-width: unset;
-  margin-top: 70px;
+  margin-top: 40px;
+  padding: 0 15px;
 }
 
 .imageBoxRow {
@@ -1134,21 +1158,25 @@ transform: translate(0,0);
 
 .imageCol {
   width: 50%;
+  padding: 0 15px;
 }
 
 .imageBoxContainer .overlap-group2, .imageBoxContainer .overlap-group3 {
   width: 100%;
-  max-width: 550px;
   margin: 0 auto;
   float: none;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-bottom: 17%;
 }
 
-.imageBoxContainer .overlap-group2 .bwindi-club1, .imageBoxContainer .overlap-group3 .bwindi-club-1.animate-enter2 {
+.imageBoxContainer .overlap-group2 .bwindi-club1, 
+.imageBoxContainer .overlap-group3 .bwindi-club-1.animate-enter2 {
   margin: 0 !important;
+  line-height: 1.3;
+  font-size: 45px;
 }
 
 .imageBoxContainer a {
@@ -1165,8 +1193,12 @@ transform: translate(0,0);
   max-width: 655px;
 }
 
-
 img.x1290.gorilaImage {
-  width: 390px;
+  width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  margin-top: 15px;
 }

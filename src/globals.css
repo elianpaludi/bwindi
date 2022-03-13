@@ -61,7 +61,7 @@ input:focus {
 
 .terms-conditions {
   width: auto;
-  margin-right: 20px;
+  margin-right: auto;
 }
 
 .flex-row-1.footerBottomArea a {
@@ -78,7 +78,7 @@ input:focus {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .BwinidiClub video#myVideo,
@@ -126,10 +126,6 @@ span.fwn {
   font-weight: 400;
 }
 
-div#team {
-  align-items: center;
-}
-
 div#team div {
   min-height: unset;
 }
@@ -138,3 +134,251 @@ div#team div {
   color: #F8BA35;
   text-decoration: underline;
 }
+
+.line90.hrline {
+  width: 100% !important;
+  max-width: 655px;
+}
+
+.line9.hrlineFull {
+  width: 96%;
+  max-width: 1300px;
+}
+
+.homeGorilaImage {
+  width: 100%;
+}
+
+.customeContainer {
+  max-width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.customeContainer .line9.hrlineFull {
+  width: 100% !important;
+}
+
+.flex-row-1 {
+  min-width: unset !important;
+  max-width: 1200px !important;
+  width: 100% !important;
+  height: auto;
+}
+
+.footerSocial {
+  display: flex;
+  align-items: center;
+}
+
+.footerContainer {
+  width: 100%;
+}
+
+.footerSubscrib {
+  display: flex;
+  align-items: center;
+}
+
+.footSubscrib {
+  margin-left: auto;
+}
+
+.footerSocilaList .join-our-community, 
+.footSubscrib p {
+  margin-bottom: 12px;
+}
+
+.footSubscrib p {
+  text-align: right;
+}
+
+.homepageText {
+  margin-bottom: 32px;
+}
+
+div#team {
+  flex-wrap: wrap;
+  min-width: unset;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin-bottom: 33px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team_imag_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.simageContent img {
+  margin: 0 3px;
+}
+
+.simageContent {
+  padding: 0 15px;
+}
+
+.verified-smart-contr {
+  margin-top: 23px;
+}
+
+.flex-row-14 {
+  max-width: 1230px !important;
+  margin: 0 auto !important;
+  min-width: unset !important;
+  padding: 0 15px !important;
+}
+
+.mainhomepageScreen {
+  overflow: hidden;
+}
+
+.navMain {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navMain .overlap-group2-1 {
+  margin: 0 !important;
+  min-width: unset;
+  width: auto !important;
+  margin: 0;
+}
+
+.menuContainer {
+  width: 100%;
+}
+
+.menuRow {
+  display: flex;
+  align-items: center;
+}
+
+.genral-the-bwindi-cl {
+  opacity: 1;
+}
+
+.terms-conditions-3.animate-enter12 {
+  margin-left: 70px;
+}
+.terms-conditions-2.screen .flex-col-5> div, .line9999 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive Css  ALL */
+
+@media only screen and (max-width: 1260px) {
+
+} /*  (max-width: 1260px) */
+
+@media only screen and (max-width: 1100px) {
+
+} /*  (max-width: 1100px) */
+
+@media only screen and (max-width: 1199px) {
+    
+} /* (max-width: 1199px) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+} /*  (min-width: 768px) and (max-width: 991px) */
+
+@media only screen and (max-width: 991px) {
+
+  .footerSubscrib .mail-container {
+      min-width: unset;
+      width: 100%;
+  }
+
+  .footSubscrib .stay-tuned-for-more {
+      min-width: unset;
+      text-align: center;
+      white-space: unset;
+      height: auto;
+  }
+
+  .imageBoxContainer .imageCol {
+      width: 100%;
+      margin-bottom: 30px;
+  }
+
+  .socialSbuscrib {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .footerSocilaList .join-our-community {
+      margin: 0 auto 12px auto;
+  }
+
+  .footerSocilaList {
+      margin-bottom: 40px;
+  }
+
+  .footSubscrib {
+      margin: 0 auto 10px auto;
+  }
+
+  .montserrat-extra-bold-white-196px, 
+  .erinnya-lyange-nze-b.montserrat-bold-white-640px.animate-enter1 {
+    min-width: unset;
+    width: 100%;
+  }
+
+
+}/*and (max-width: 991px)*/
+    
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+   
+} /* (min-width: 426px) and (max-width: 767px) */
+      
+@media only screen and (max-width: 767px) {
+
+}/* and (max-width: 767px) */
+       
+@media only screen and (max-width: 575px) {
+
+} /* (max-width: 575px) */
+    
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+	
+}     /*  (min-width: 320px) and (max-width: 425px) */
+
+@media only screen and (max-width: 480px) {
+
+  .flex-row-1.footerBottomArea {
+      flex-direction: column;
+  }
+
+  .terms-conditions {
+      margin: 0 0 10px 0;
+  }
+
+  .montserrat-extra-bold-white-196px {
+      font-size: 40px;
+  }
+
+  .imageBoxContainer .overlap-group2 .bwindi-club1, 
+  .imageBoxContainer .overlap-group3 .bwindi-club-1.animate-enter2 {
+      font-size: 32px;
+  }
+
+} /* (max-width: 480px) */
+      
+@media only screen and (max-width: 360px) {
+
+} /* (max-width: 360px)  */
+   

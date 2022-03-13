@@ -57,29 +57,31 @@ function HomePage({ props }) {
 
   return (
     <div className="container-center-horizontal">
-      <div className="homepage screen">
+      <div className="homepage screen mainhomepageScreen">
         {/* Navbar */}
-        <div className="flex-row-14 set_hit">
-          <div className="flex-col-8">
-            <a href="../"><img className="bwindi_logo-5" src={bwindi_Logo} alt="" /></a>
-          </div>
-          
-          <div className="flex-col-9">
-            <div className="overlap-group2-1 jost-semi-bold-white-13px" style={{ marginLeft: '220px' }}>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#buybwindi">{buy}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#about">{about}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#jungle">{jungle}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#roadmap">{roadmap}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#team">{team}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/gallery">{gallery}</Link></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/records">{records}</Link></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/members">{members}</Link></div>
+
+        <div className="customeContainer menuContainer">
+          <div className="menuRow">
+            <div className="navBrand">
+              <a href="../"><img className="bwindi_logo-5" src={bwindi_Logo} alt="" /></a>
             </div>
-            <DropMenu />
+            <div className="navMain">
+              <div className="overlap-group2-1 jost-semi-bold-white-13px" style={{ marginLeft: '220px' }}>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#buybwindi">{buy}</a></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#about">{about}</a></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#jungle">{jungle}</a></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#roadmap">{roadmap}</a></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#team">{team}</a></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/gallery">{gallery}</Link></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/records">{records}</Link></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/members">{members}</Link></div>
+                <DropMenu />
+              </div>
+            </div>
           </div>
         </div>
         
-        <div className="flex-col-1">
+        <div className="">
           {/* Welcome section */}
           <div className="homepageVideo">
             <video loop="true" autoplay="autoplay" muted id="homepageVideo" style={{ marginBottom: '20px' }} width="100%" >
@@ -96,10 +98,11 @@ function HomePage({ props }) {
                 <span className="span1">{spanText2}</span>
               </div>
             </div> */}
-            <div className="bwindi-club-was-esta valign-text-middle" style={{ lineHeight: 1, marginLeft: 0 }}>{bwindiClubWasEsta}</div>
+            <div className="homepageText bwindi-club-was-esta valign-text-middle" style={{ lineHeight: 1, marginLeft: 0 }}>{bwindiClubWasEsta}</div>
           </div>
 
-          <img className="line-9" src="/img/line-6@1x.svg" alt="" />
+          
+          <div className="customeContainer"><img className="line-9" src="/img/line-6@1x.svg" alt="" /></div>
           
           {/* Buy a bwindi */}
           <div className="buy-bwindi" id="buybwindi">
@@ -132,7 +135,8 @@ function HomePage({ props }) {
             </div>
           </div>
 
-          <img className="line-8" src="/img/line-6@1x.svg" alt="" />
+          <div className="customeContainer"><img className="line-9" src="/img/line-6@1x.svg" alt="" /></div>
+          
           
           {/* The specifications */}
           <div className="specs" id="about">
@@ -152,7 +156,8 @@ function HomePage({ props }) {
             </div>
           </div>
 
-          <img className="line-6" src="/img/line-6@1x.svg" alt="" />
+          <div className="customeContainer"><img className="line-9" src="/img/line-6@1x.svg" alt="" /></div>
+          
           
           {/* The Impenetrable Digital Jungle */}
           <div className="jungle" style={{ height: 'unset' }} id="jungle">
@@ -226,11 +231,11 @@ function HomePage({ props }) {
                         <span style={{ lineHeight: 1 }} className="span-1 montserrat-semi-bold-saffron-16px">Name: </span>
                         <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">Biwindi</span><br />
                         <span style={{ lineHeight: 1 }} className="span-1 montserrat-semi-bold-saffron-16px">Symbol: </span>
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">Will be given</span><br />
+                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">BWD</span><br />
                         <span style={{ lineHeight: 1 }} className="span-1 montserrat-semi-bold-saffron-16px">Total Supply: </span>
                         <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">100,000,000</span><br />
                         <span style={{ lineHeight: 1 }} className="span-1 montserrat-semi-bold-saffron-16px">Contract Address: </span>
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">Will be given</span><br />
+                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">Published Soon</span><br />
                         <span style={{ lineHeight: 1 }} className="span-1 montserrat-semi-bold-saffron-16px">Exchange: </span>
                         <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">UniSwap</span><br />
                         <span style={{ lineHeight: 1 }} className="span1-1 montserrat-semi-bold-saffron-16px">Distribution Details: </span><br />
@@ -322,10 +327,24 @@ function HomePage({ props }) {
             <img className="rectangle-37" src={rectangle37} alt="" /> */}
           </div>
 
-          <img className="line set_up34" src="/img/line-6@1x.svg" alt="" style={{ marginTop: '40px' }} />
+          <div className="customeContainer"><img className="line set_up34" src="/img/line-6@1x.svg" alt="" style={{ marginTop: '40px' }} /></div>
           
           {/* The team */}
           <div className="team" id="team">
+            <div className="team_imag_container">
+              <div className="simageContent">
+                <img className="mask-group" src="/img/member_1.png" alt="" />
+                <img className="mask-group-1" src="/img/member_2.png" alt="" />
+              </div>
+              <div className="simageContent">
+                <img className="mask-group-2" src="/img/member_3.png" alt="" />
+                <img className="mask-group-3" src="/img/member_4.png" alt="" />
+              </div>
+              <div className="simageContent">
+                <img className="mask-group-4" src="/img/member_5.png" alt="" />
+                <img className="mask-group-5" src="/img/member_6.png" alt="" />
+              </div>
+            </div>
             <div className="the-container" style={{ alignSelf: 'unset' }}>
               <div className="the-team animate-enter9" show-on-scroll="true">
                 <span className="">{spanText62}</span>
@@ -347,56 +366,11 @@ function HomePage({ props }) {
                 <span className="jost-medium-white-20px">{spanText76}</span>
               </div>
             </div>
-            <div className="flex-col-4">
-              <div className="mask-group-container">
-                <img className="mask-group" src="/img/member_1.png" alt="" />
-                <img className="mask-group-1" src="/img/member_2.png" alt="" />
-              </div>
-              <div className="mask-group-container-1" style={{ marginRight: '40px' }}>
-                <img className="mask-group-2" src="/img/member_3.png" alt="" />
-                <img className="mask-group-3" src="/img/member_4.png" alt="" />
-              </div>
-              <div className="mask-group-container-2">
-                <img className="mask-group-4" src="/img/member_5.png" alt="" />
-                <img className="mask-group-5" src="/img/member_6.png" alt="" />
-              </div>
-            </div>
           </div>
-          <img className="line-11" src="/img/line-6@1x.svg" alt="" />
-          <div className="verified-smart-contr valign-text-middle"><a href="https://polygonscan.com/token/0xdb33d738d328eb274ba41e99c00bd0e36781ce30">{verifiedSmartContr}</a> </div>
+          <div className="customeContainer"><img className="line-11" src="/img/line-6@1x.svg" alt="" /></div>
+          <div className="verified-smart-contr valign-text-middle"><a href="https://polygonscan.com/token/0xdb33d738d328eb274ba41e99c00bd0e36781ce30" target="_blank">{verifiedSmartContr}</a> </div>
 
-          <hr className="line9" />
 
-          <div className="flex-row" style={{marginBottom: '12px'}}>
-            <div className="join-our-community valign-text-middle jost-semi-bold-white-15px">Join our community</div>
-            <p className="stay-tuned-for-more valign-text-middle jost-semi-bold-white-15px">
-              Stay tuned for more details by subscribing to our newsletter!
-            </p>
-          </div>
-          <div className="flex-row-1">
-            <a target="blank" alt="twitter" href="https://twitter.com/Bwindi_NFTs"><img className="twitter" src="/img/twitter-1@2x.svg" alt="" /></a>
-            <a target="blank" alt="linkedin" href="https://www.linkedin.com/company/bwindi/"><img className="flex-row-item" src="/img/linkedin-1@2x.svg" alt="" /></a>
-            <a target="blank" alt="facebook" href="https://www.facebook.com/BwindiNFTs/"><img className="flex-row-item" src="/img/facebook-1@2x.svg" alt="" /></a>
-            <a target="blank" alt="instagram" href="https://www.instagram.com/bwindi_nft/"><img className="flex-row-item" src="/img/instagram-1@2x.svg" alt="" /></a>
-            <a target="blank" alt="discord" href="https://discord.com/invite/Swp4zj3Sqe"><img className="flex-row-item" src="/img/discord-1@2x.svg" alt="" /></a>
-            <a target="blank" alt="youtube" href="https://www.youtube.com/channel/UCOqVypNUxB7G_18AOXQ_1pg"><img className="flex-row-item" src="/img/youtube@2x.svg" alt="" /></a>
-
-            <div className="mail-container border-1px-gray-chateau">
-              <img className="mail" src="/img/mail@2x.svg" alt="mail" />
-              <div className="your-e-mail valign-text-middle jost-normal-gray-chateau-14px">Your e-mail</div>
-            </div>
-            <div className="frame-8">
-              <div className="subscribe valign-text-middle jost-medium-black-14px">Subscribe</div>
-            </div>
-          </div>
-          <div className="flex-row-1 footerBottomArea">
-            <div className="terms-conditions valign-text-middle jost-semi-bold-white-15px">
-              <Link to="/terms-conditions" className="jost-semi-bold-white-15px">{termsConditions}</Link>
-            </div>
-            <p className="copyright valign-text-middle jost-semi-bold-white-15px">
-              <a target="blank" href="https://bwindi.io/" className="jost-semi-bold-white-15px">{copyright}</a>
-            </p>
-          </div>
           {/* <img className="line-2-1" src="/img/line-2@1x.svg" alt=""/> */}
           {/* <div className="flex-row-4">
             <div className="join-our-community-1 valign-text-middle jost-bold-zircon-14px">{joinOurCommunity}</div>
@@ -425,6 +399,50 @@ function HomePage({ props }) {
             <p className="copyright-1 valign-text-middle"><a href="https://bwindi.io/">{copyright}</a></p>
           </div> */}
         </div>
+        <hr className="line9 hrlineFull" />
+        <div className="footerContainer">
+          <div className="customeContainer">
+            <div className="flex-row" style={{marginBottom: '12px'}}>
+              
+            </div>
+            <div className="flex-row-1 socialSbuscrib">
+              <div className="footerSocilaList">
+              <div className="join-our-community valign-text-middle jost-semi-bold-white-15px">Join our community</div>
+                <div className="footerSocial">
+                  <a target="blank" alt="twitter" href="https://twitter.com/Bwindi_NFTs"><img className="twitter" src="/img/twitter-1@2x.svg" alt="" /></a>
+                  <a target="blank" alt="linkedin" href="https://www.linkedin.com/company/bwindi/"><img className="flex-row-item" src="/img/linkedin-1@2x.svg" alt="" /></a>
+                  <a target="blank" alt="facebook" href="https://www.facebook.com/BwindiNFTs/"><img className="flex-row-item" src="/img/facebook-1@2x.svg" alt="" /></a>
+                  <a target="blank" alt="instagram" href="https://www.instagram.com/bwindi_nft/"><img className="flex-row-item" src="/img/instagram-1@2x.svg" alt="" /></a>
+                  <a target="blank" alt="discord" href="https://discord.com/invite/Swp4zj3Sqe"><img className="flex-row-item" src="/img/discord-1@2x.svg" alt="" /></a>
+                  <a target="blank" alt="youtube" href="https://www.youtube.com/channel/UCOqVypNUxB7G_18AOXQ_1pg"><img className="flex-row-item" src="/img/youtube@2x.svg" alt="" /></a>
+                </div>
+              </div>
+              <div className="footSubscrib">
+                <p className="stay-tuned-for-more valign-text-middle jost-semi-bold-white-15px">
+                  Stay tuned for more details by subscribing to our newsletter!
+                </p>
+                <div className="footerSubscrib">
+                  <div className="mail-container border-1px-gray-chateau">
+                    <img className="mail" src="/img/mail@2x.svg" alt="mail" />
+                    <div className="your-e-mail valign-text-middle jost-normal-gray-chateau-14px">Your e-mail</div>
+                  </div>
+                  <div className="frame-8">
+                    <div className="subscribe valign-text-middle jost-medium-black-14px">Subscribe</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex-row-1 footerBottomArea">
+              <div className="terms-conditions valign-text-middle jost-semi-bold-white-15px">
+                <Link to="/terms-conditions" className="jost-semi-bold-white-15px">{termsConditions}</Link>
+              </div>
+              <p className="copyright valign-text-middle jost-semi-bold-white-15px">
+                <a target="blank" href="https://bwindi.io/" className="jost-semi-bold-white-15px">{copyright}</a>
+              </p>
+            </div>
+        </div>
+        </div>
+
       </div>
     </div>
   );

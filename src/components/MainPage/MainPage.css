@@ -238,7 +238,7 @@ hr.p-0.line9 {
   height: 23px;
   letter-spacing: 0;
   line-height: 22.5px;
-  margin-left: 640px;
+  margin-left: auto;
   min-width: 415px;
   white-space: nowrap;
 }
@@ -281,7 +281,7 @@ hr.p-0.line9 {
   border-radius: 8px;
   display: flex;
   height: 32px;
-  margin-left: 520px;
+  margin-left: auto;
   min-width: 320px;
   padding: 5px 11px;
 }
