@@ -84,7 +84,7 @@ function HomePage({ props }) {
         <div className="">
           {/* Welcome section */}
           <div className="homepageVideo">
-            <video loop="true" autoplay="autoplay" muted id="homepageVideo" style={{ marginBottom: '20px' }} width="100%" >
+            <video loop="true" autoplay="autoplay" loop muted id="homepageVideo" style={{ marginBottom: '20px' }} width="100%" >
               <source src={HomepageVideo} type="video/mp4" />
             </video>
           </div>
@@ -345,7 +345,7 @@ function HomePage({ props }) {
                 <img className="mask-group-5" src="/img/member_6.png" alt="" />
               </div>
             </div>
-            <div className="the-container" style={{ alignSelf: 'unset' }}>
+            <div className="the-container theTeamCOntainer" style={{ alignSelf: 'unset' }}>
               <div className="the-team animate-enter9" show-on-scroll="true">
                 <span className="">{spanText62}</span>
                 <span className="fwn">{spanText63}</span>
@@ -368,7 +368,7 @@ function HomePage({ props }) {
             </div>
           </div>
           <div className="customeContainer"><img className="line-11" src="/img/line-6@1x.svg" alt="" /></div>
-          <div className="verified-smart-contr valign-text-middle"><a href="https://polygonscan.com/token/0xdb33d738d328eb274ba41e99c00bd0e36781ce30" target="_blank">{verifiedSmartContr}</a> </div>
+          <div className="verified-smart-contr valign-text-middle"><a href="https://polygonscan.com/token/0xdb33d738d328eb274ba41e99c00bd0e36781ce30" target="_blank">Verified Smart Contract Address:  <span>{verifiedSmartContr}</span></a> </div>
 
 
           {/* <img className="line-2-1" src="/img/line-2@1x.svg" alt=""/> */}

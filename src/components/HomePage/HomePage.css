@@ -1169,6 +1169,7 @@ transform: translate(0,0);
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
   padding-bottom: 17%;
 }
 
@@ -1176,7 +1177,7 @@ transform: translate(0,0);
 .imageBoxContainer .overlap-group3 .bwindi-club-1.animate-enter2 {
   margin: 0 !important;
   line-height: 1.3;
-  font-size: 45px;
+  font-size: 65px;
 }
 
 .imageBoxContainer a {

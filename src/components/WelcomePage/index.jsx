@@ -26,7 +26,7 @@ function WelcomePage({ props }) {
           <img className="bwindi_logo-5" src={bwindi_Logo} alt="logo" />
         </div>
 
-        <div className="flex-row-center w-full" style={{ marginTop: '20px' }}>
+        <div className="flex-row-center w-full" style={{ marginTop: '21px' }}>
           <div className="BwinidiClub">
             <video loop="true" autoplay="autoplay" muted id="myVideo" style={{ marginBottom: '20px' }}>
               <source src={bgvideo} type="video/mp4" />
@@ -89,7 +89,9 @@ function WelcomePage({ props }) {
               <a target="blank" href="https://bwindi.io/" className="jost-semi-bold-white-15px link">{copyright}</a>
             </p>
           </div>
+
         </div>
+        
       </div>
     </div>
   );

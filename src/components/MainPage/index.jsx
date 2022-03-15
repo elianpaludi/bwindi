@@ -19,6 +19,8 @@ function MainPage({ props }) {
     subscribe,
     termsConditions,
     copyright,
+    BwindClub,
+    BwindMarkect,
   } = props;
 
   return (
@@ -28,22 +30,30 @@ function MainPage({ props }) {
           <img className="bwindi_logo-5" src={bwindi_Logo} alt="logo" />
         </div>
         <div className="overlap-group-container imageBoxContainer">
+          
+            
           <div className="imageBoxRow row">
             <div className="imageCol">
-              <div className="overlap-group2" style={{ backgroundImage: `url(${overlapGroup1})`}}>
+              <div className="overlap-group2">
+                <video loop="true" autoplay="autoplay" loop muted>
+                <source src={BwindClub} type="video/mp4" />
+              </video>
                 <div className="bwindi-club1 animate-enter3" show-on-scroll="true">
                   BWINDI<br /> CLUB
                 </div>
               </div>
-                <Link to="/welcome-page"><img className="group-14" src={group14} alt="welcome"/></Link>
+                <Link to="/welcome-page" target="_blank"><img className="group-14" src={group14} alt="welcome"/></Link>
             </div>
             <div className="imageCol">
-              <div className="overlap-group3" style={{ backgroundImage: `url(${overlapGroup2})` }}>
+              <div className="overlap-group3">
+                <video loop="true" autoplay="autoplay" loop muted>
+                  <source src={BwindMarkect} type="video/mp4" />
+                </video>
                 <div className="bwindi-club-1 montserrat-bold-white-370px animate-enter2" show-on-scroll="true">
                   BWINDI<br /> MARKETPLACE
                 </div>
               </div>
-                <Link to="/marketplace"><img className="group-15" src={group15} alt="marketplace"/></Link>
+                <Link to="/marketplace" target="_blank"><img className="group-15" src={group15} alt="marketplace"/></Link>
             </div>
           </div>
         </div>
