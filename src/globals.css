@@ -633,6 +633,25 @@ p.copyright a {
   pointer-events: none;
 }
 
+img.centerLine {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.member_image img {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.member_image {
+  padding-top: 100px;
+}
+
 /* Responsive Css  ALL */
 
 @media only screen and (max-width: 1260px) {

@@ -96,7 +96,7 @@ function HomePage({ props }) {
           </div>
 
           
-          <div className="customeContainer"><img className="line-9" src="/img/line-6@1x.svg" alt="" /></div>
+          <div className="customeContainer"><img className="line-9 centerLine" src="/img/line-6@1x.svg" alt="" /></div>
           
           {/* Buy a bwindi */}
           <div className="buy-bwindi" id="buybwindi">
@@ -129,7 +129,7 @@ function HomePage({ props }) {
             </div>
           </div>
 
-          <div className="customeContainer"><img className="line-9" src="/img/line-6@1x.svg" alt="" /></div>
+          <div className="customeContainer"><img className="line-9 centerLine" src="/img/line-6@1x.svg" alt="" /></div>
           
           
           {/* The specifications */}
@@ -150,7 +150,7 @@ function HomePage({ props }) {
             </div>
           </div>
 
-          <div className="customeContainer"><img className="line-9" src="/img/line-6@1x.svg" alt="" /></div>
+          <div className="customeContainer"><img className="line-9 centerLine" src="/img/line-6@1x.svg" alt="" /></div>
           
           
           {/* The Impenetrable Digital Jungle */}
@@ -165,7 +165,7 @@ function HomePage({ props }) {
             <div className="the-impenetrable-dig jost-medium-white-20px liHe15" style={{ padding: 'unset', opacity: '1', }}>{theImpenetrableDig}</div>
           </div>
 
-          <div className="customeContainer"><img className="line-9" src="/img/line-6@1x.svg" alt="" /></div>
+          <div className="customeContainer"><img className="line-9 centerLine" src="/img/line-6@1x.svg" alt="" /></div>
           
           {/* Roadmap activation */}
           <div className="overlap-group11" style={{ maxWidth: '1200px', height: 'auto' }} id="roadmap">
@@ -318,7 +318,7 @@ function HomePage({ props }) {
             <img className="rectangle-37" src={rectangle37} alt="" /> */}
           </div>
 
-          <div className="customeContainer"><img className="line set_up34" src="/img/line-6@1x.svg" alt="" style={{ marginTop: '40px' }} /></div>
+          <div className="customeContainer"><img className="line set_up34 centerLine" src="/img/line-6@1x.svg" alt="" style={{ marginTop: '40px' }} /></div>
           
           {/* The team */}
           <div className="team" id="team">
@@ -380,7 +380,7 @@ function HomePage({ props }) {
           <a target="blank" alt="linkedin" href="https://www.linkedin.com/company/bwindi/"><img className="flex-row-item" src="/img/linkedin-1@2x.svg" alt=""/></a>
           <a target="blank" alt="facebook" href="https://www.facebook.com/BwindiNFTs/"><img className="flex-row-item" src="/img/facebook-1@2x.svg" alt="" /></a>
           <a target="blank" alt="instagram" href="https://www.instagram.com/bwindi_nft/"><img className="flex-row-item" src="/img/instagram-1@2x.svg" alt=""/></a>
-          <a target="blank" alt="discord" href="https://discord.com/invite/Swp4zj3Sqe"><img className="flex-row-item" src="/img/discord-1@2x.svg" alt=""/></a>
+          <a target="blank" alt="discord" href="https://discord.com/invite/m2sfKE97NU"><img className="flex-row-item" src="/img/discord-1@2x.svg" alt=""/></a>
           <a target="blank" alt="youtube" href="https://www.youtube.com/channel/UCOqVypNUxB7G_18AOXQ_1pg"><img className="flex-row-item" src="/img/youtube@2x.svg" alt=""/></a>
           
 
@@ -412,7 +412,7 @@ function HomePage({ props }) {
                   <a target="blank" alt="linkedin" href="https://www.linkedin.com/company/bwindi/"><img className="flex-row-item" src="/img/linkedin-1@2x.svg" alt="" /></a>
                   <a target="blank" alt="facebook" href="https://www.facebook.com/BwindiNFTs/"><img className="flex-row-item" src="/img/facebook-1@2x.svg" alt="" /></a>
                   <a target="blank" alt="instagram" href="https://www.instagram.com/bwindi_nft/"><img className="flex-row-item" src="/img/instagram-1@2x.svg" alt="" /></a>
-                  <a target="blank" alt="discord" href="https://discord.com/invite/Swp4zj3Sqe"><img className="flex-row-item" src="/img/discord-1@2x.svg" alt="" /></a>
+                  <a target="blank" alt="discord" href="https://discord.com/invite/m2sfKE97NU"><img className="flex-row-item" src="/img/discord-1@2x.svg" alt="" /></a>
                   <a target="blank" alt="youtube" href="https://www.youtube.com/channel/UCOqVypNUxB7G_18AOXQ_1pg"><img className="flex-row-item" src="/img/youtube@2x.svg" alt="" /></a>
                 </div>
               </div>
