@@ -38,9 +38,6 @@ function MainPage({ props }) {
                 <video loop="true" autoplay="autoplay" loop muted>
                 <source src={BwindClub} type="video/mp4" />
               </video>
-                <div className="bwindi-club1 animate-enter3" show-on-scroll="true">
-                  BWINDI<br /> CLUB
-                </div>
               </div>
                 <Link to="/bwindi-club"><img className="group-14" src={group14} alt="welcome"/></Link>
             </div>
@@ -49,9 +46,6 @@ function MainPage({ props }) {
                 <video loop="true" autoplay="autoplay" loop muted>
                   <source src={BwindMarkect} type="video/mp4" />
                 </video>
-                <div className="bwindi-club-1 montserrat-bold-white-370px animate-enter2" show-on-scroll="true">
-                  BWINDI<br /> MARKETPLACE
-                </div>
               </div>
                 <Link to="/marketplace"><img className="group-15" src={group15} alt="marketplace"/></Link>
             </div>

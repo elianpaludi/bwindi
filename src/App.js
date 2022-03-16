@@ -270,7 +270,7 @@ const welcomePageData = {
 
 const marketplaceData = {
   bwindi_Logo: "/img/bwindi-logo@1x.png",
-  bgvideo: "/video/Marketplace.mp4",
+  bgvideo: "/video/MarketplaceFinal.mp4",
   pexelsJuliaFilirovska71902271: "/img/bwindi-art02-2@1x.png",
   ActiveSoon: "/img/activesoon.svg",
   title: "WELCOME TO",
