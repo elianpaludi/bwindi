@@ -92,12 +92,16 @@ function MainPage({ props }) {
               <div className="footSubscrib">
                 <p className="stay-tuned-for-more valign-text-middle jost-semi-bold-white-15px">{stayTunedForMore}</p>
                 <div className="footerSubscrib">
-                  <div className="mail-container border-1px-gray-chateau">
-                    <img className="mail" src="/img/mail@2x.svg" alt="mail" />
-                    <div className="your-e-mail valign-text-middle jost-normal-gray-chateau-14px">{yourEMail}</div>
-                  </div>
-                  <div className="frame-8">
-                    <div className="subscribe valign-text-middle jost-medium-black-14px">{subscribe}</div>
+                  <div id="mc_embed_signup">
+                      <form action="https://archytas.us2.list-manage.com/subscribe/post?u=73a0cb8922213cdf019fdd867&amp;id=7bd09f5369" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                          <div id="mc_embed_signup_scroll">
+                              <div class="mc-field-group">
+                                  <img src="/img/mail.svg" alt="mail"/>
+                                  <input type="email"  name="EMAIL" id="mce-EMAIL" placeholder="Your e-mail" />
+                              </div>
+                              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"/></div>
+                          </div>
+                      </form>
                   </div>
                 </div>
               </div>

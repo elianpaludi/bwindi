@@ -293,7 +293,7 @@ const mainPageData = {
   bwindi_Logo: "/img/bwindi-logo@1x.png",
   overlapGroup1: "/img/bwindi-club-1@1x.png",
   BwindClub: "/video/Bwinidi-Club.mp4",
-  BwindMarkect: "/video/Marketplace.mp4",
+  BwindMarkect: "/video/MarketplaceFinal.mp4",
   BWINDICLUBOpen: "/video/Digital-Jungle.mp4",
   BWINDIOMARKETpen: "/video/Digital-Jungle.mp4",
   bwindiClub1: "BWINDI CLUB",
