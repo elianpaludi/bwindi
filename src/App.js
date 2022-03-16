@@ -19,7 +19,7 @@ function App() {
 
         <Route path="/main-page" element={<MainPage props={mainPageData} />} />
 
-        <Route path="/welcome-page" element={<WelcomePage props={welcomePageData} />} />
+        <Route path="/bwindi-club" element={<WelcomePage props={welcomePageData} />} />
 
         <Route path="/marketplace" element={<Marketplace props={marketplaceData} />} />
 

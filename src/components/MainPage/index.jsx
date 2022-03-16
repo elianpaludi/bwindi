@@ -42,7 +42,7 @@ function MainPage({ props }) {
                   BWINDI<br /> CLUB
                 </div>
               </div>
-                <Link to="/welcome-page" target="_blank"><img className="group-14" src={group14} alt="welcome"/></Link>
+                <Link to="/bwindi-club"><img className="group-14" src={group14} alt="welcome"/></Link>
             </div>
             <div className="imageCol">
               <div className="overlap-group3">
@@ -53,7 +53,7 @@ function MainPage({ props }) {
                   BWINDI<br /> MARKETPLACE
                 </div>
               </div>
-                <Link to="/marketplace" target="_blank"><img className="group-15" src={group15} alt="marketplace"/></Link>
+                <Link to="/marketplace"><img className="group-15" src={group15} alt="marketplace"/></Link>
             </div>
           </div>
         </div>

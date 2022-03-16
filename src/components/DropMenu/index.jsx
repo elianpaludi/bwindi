@@ -8,8 +8,8 @@ function DropMenu(props) {
  
 
   return (
-    <div className="dropdown dropdown-keep-open">
-      <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+    <div className="menuDrop dropdown dropdown-keep-open">
+      <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MEMBERS </button>
       <div className="dropdown-menu overlap-group9 jost-semi-bold-white-131px" aria-labelledby="dropdownMenuButton">
         <div className="overlap-group9-item">THE JUNGLE</div>
           <div className="overlap-group9-item">BWINDI CLUB</div>

@@ -74,7 +74,6 @@ function HomePage({ props }) {
                 <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#team">{team}</a></div>
                 <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/gallery">{gallery}</Link></div>
                 <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/records">{records}</Link></div>
-                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/members">{members}</Link></div>
                 <DropMenu />
               </div>
             </div>
@@ -83,22 +82,17 @@ function HomePage({ props }) {
         
         <div className="">
           {/* Welcome section */}
-          <div className="homepageVideo">
-            <video loop="true" autoplay="autoplay" loop muted id="homepageVideo" style={{ marginBottom: '20px' }} width="100%" >
-              <source src={HomepageVideo} type="video/mp4" />
-            </video>
-          </div>
-          <div className="welcome">
-            {/* <div className="flex-col-2">
-              <div className="welcome-t-o-t-he animate-enter4" Style="    font-size: 30px;" show-on-scroll="true">
-                {welcomeToThe}
+          <div className="homepageVideo_content">
+            <div className="customeContainer">
+              <div className="homepageVideo">
+                <video loop="true" autoplay="autoplay" loop muted id="homepageVideo" style={{ marginBottom: '20px' }} width="100%" >
+                  <source src={HomepageVideo} type="video/mp4" />
+                </video>
               </div>
-              <div className="bwindi-club-122 animate-enter3" show-on-scroll="true">
-                <span className="span0">{spanText1}</span>
-                <span className="span1">{spanText2}</span>
+              <div className="welcome fw5">
+                <div className="homepageText bwindi-club-was-esta valign-text-middle" style={{ lineHeight: 1.5, marginLeft: 0 }}>{bwindiClubWasEsta}</div>
               </div>
-            </div> */}
-            <div className="homepageText bwindi-club-was-esta valign-text-middle" style={{ lineHeight: 1, marginLeft: 0 }}>{bwindiClubWasEsta}</div>
+            </div>
           </div>
 
           
@@ -114,7 +108,7 @@ function HomePage({ props }) {
                 <div className="membership-fee valign-text-middle animate-enter7" show-on-scroll="true" style={{ position: 'unset' }}>
                   <p style={{ textAlign: 'center' }}>{membershipFee}</p>
                 </div>
-                <div className="the-membership-is-ac" style={{ lineHeight: 1, position: 'unset' }}>
+                <div className="the-membership-is-ac" style={{ lineHeight: 1.5, position: 'unset' }}>
                   {theMembershipIsAc}
                 </div>
               </div>
@@ -123,7 +117,7 @@ function HomePage({ props }) {
               <div className="buy-a-bwindi montserrat-semi-bold-white-505px animate-enter6" show-on-scroll="true">
                 {buyABwindi}
               </div>
-              <div className="initially-2000-mal jost-medium-white-20px" style={{ marginTop: '0px', lineHeight: 1 }}>{initially2000Mal}</div>
+              <div className="initially-2000-mal jost-medium-white-20px" style={{ marginTop: '0px', lineHeight: 1.5 }}>{initially2000Mal}</div>
               <div className="buy-button" style={{ margin: 0 }}>
                 <div className="overlap-group">
                   <div className="buy-a-bwindi-on-open-sea">
@@ -140,7 +134,7 @@ function HomePage({ props }) {
           
           {/* The specifications */}
           <div className="specs" id="about">
-            <div style={{display: 'table'}}>
+            <div className="about_content" style={{display: 'table'}}>
               <div className="each-bwindi-nft-is-u jost-medium-white-20px" style={{display: 'table-cell', verticalAlign: 'middle'}}>
                 <span className="span0-1 jost-medium-white-20px" style={{ lineHeight: 0 }}>{spanText3}</span>
                 <span className="span1-2 jost-medium-white-20px" style={{ lineHeight: 0 }}>{spanText4}</span>
@@ -168,10 +162,10 @@ function HomePage({ props }) {
               <span className="montserrat-semi-bold-white-500px">{spanText8}</span>
               <span className="montserrat-regular-normal-white-450px">{spanText9}</span>
             </div>
-            <div className="the-impenetrable-dig jost-medium-white-20px" style={{ padding: 'unset', opacity: '1', }}>{theImpenetrableDig}</div>
+            <div className="the-impenetrable-dig jost-medium-white-20px liHe15" style={{ padding: 'unset', opacity: '1', }}>{theImpenetrableDig}</div>
           </div>
 
-          <img className="line" src="/img/line-6@1x.svg" alt="" />
+          <div className="customeContainer"><img className="line-9" src="/img/line-6@1x.svg" alt="" /></div>
           
           {/* Roadmap activation */}
           <div className="overlap-group11" style={{ maxWidth: '1200px', height: 'auto' }} id="roadmap">
@@ -183,44 +177,41 @@ function HomePage({ props }) {
                 </p>
               </div>
 
-              <div className="montserrat-bold-white-20px" style={{ marginTop: '30px' }}>
-                <div style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                }}>
+              <div className=" montserrat-bold-white-20px" style={{ marginTop: '30px' }}>
+                <div className="roadmapCOntent">
                   <div className="montserrat-bold-white-20px animate-enter10">
-                    <p className="montserrat-bold-saffron-20px">March 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">March 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 1: </span>
                       New 2,000 male Bwindi the Adventurer are generated and posted on OpenSea for sale.
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">May 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       The launching of Bwindi Marketplace.
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">May 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       The Impenetrable Digital Jungle will be unlocked.
                     </p>
                   </div>
 
                   <div className="montserrat-bold-white-20px animate-enter10" style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">May 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 2: </span>
                       New 2,000 female Bwindi the Adventure will be generated and posted on OpenSea and Bwindi Marketplace for sale.
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">Jun 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">Jun 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       Launching and listing of Bwindi coin on Uniswap -See below the Tokenomics.
                     </p>
                   </div>
@@ -228,18 +219,18 @@ function HomePage({ props }) {
                   <div className="flex-row-between" style={{ marginTop: '20px' }}>
                     <div>
                       <p className="line-height-none">
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-semi-bold-saffron-16px">Name: </span>
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">Biwindi</span><br />
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-semi-bold-saffron-16px">Symbol: </span>
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">BWD</span><br />
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-semi-bold-saffron-16px">Total Supply: </span>
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">100,000,000</span><br />
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-semi-bold-saffron-16px">Contract Address: </span>
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">Published Soon</span><br />
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-semi-bold-saffron-16px">Exchange: </span>
-                        <span style={{ lineHeight: 1 }} className="span-1 montserrat-medium-white-16px">UniSwap</span><br />
-                        <span style={{ lineHeight: 1 }} className="span1-1 montserrat-semi-bold-saffron-16px">Distribution Details: </span><br />
-                        <span style={{ lineHeight: 1 }} className="span1-1 montserrat-medium-white-16px">{spanText34}</span>
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Name: </span>
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Biwindi</span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Symbol: </span>
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">BWD</span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Total Supply: </span>
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">100,000,000</span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Contract Address: </span>
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon</span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Exchange: </span>
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">UniSwap</span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span1-1 montserrat-semi-bold-saffron-16px">Distribution Details: </span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span1-1 montserrat-medium-white-16px">{spanText34}</span>
                       </p>
                     </div>
 
@@ -249,76 +240,76 @@ function HomePage({ props }) {
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">July 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">July 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       First live streaming of safari trip from the Bwindi Impenetrable Forest accessed in the Impenetrable Digital Jungle with or without VR headsets.
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">July 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">July 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       Digital breeding party between male and female Bwindis from Seasons 1 and 2. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations.
                     </p>
                   </div>
 
                   <div className="montserrat-bold-white-20px animate-enter10" style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">August 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">August 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 3: </span>
                       Newl 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea andBwindi Marketplace for sale.
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">September 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">September 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       Second live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets.
                     </p>
                   </div>
 
                   <div className="montserrat-bold-white-20px animate-enter10" style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">November 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">November 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 4: </span>
                       New 2,000 male and 2,000 female Bwindis will be generated posted on OpenSea and Bwindi marketplace for sale.
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">December 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">December 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       Third live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets.
                     </p>
                   </div>
 
                   <div className="montserrat-bold-white-20px animate-enter10" style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">January 2022</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">January 2022</p>
+                    <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 5: </span>
                       New 1,500 male and 1,500 female Bwindis are posted on OpenSea and Bwindi marketplace for sale.
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">Feburary 2023</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">Feburary 2023</p>
+                    <p className="jost-medium-white-20px liHe15">
                       Digital breeding party between male and female Bwindis from Seasons 3, 4, and 5. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations.
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px">March 2023</p>
-                    <p className="jost-medium-white-20px">
+                    <p className="montserrat-bold-saffron-20px liHe15">March 2023</p>
+                    <p className="jost-medium-white-20px liHe15">
                       Finalization of Bwindi DAO (Decentralized Autonomous Organization) to vote for March 2023 - March 2024 roadmap.
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px" style={{ textAlign: 'center' }}>
+                    <p className="montserrat-bold-saffron-20px liHe15" style={{ textAlign: 'center' }}>
                       *The Roadmap Activations are subject to changes based on community votes, weather and parks conditions, authorities’ approvals, and any force majeure that may occur.
                     </p>
-                    <p className="valign-text-middle jost-medium-white-20px" style={{ textAlign: 'center', lineHeight: 2 }}>{theTeamWillKeepD}</p>
+                    <p className="valign-text-middle jost-medium-white-20px mt15" style={{ textAlign: 'center', lineHeight: 2 }}>{theTeamWillKeepD}</p>
                   </div>
                 </div>
               </div>
@@ -351,24 +342,31 @@ function HomePage({ props }) {
                 <span className="fwn">{spanText63}</span>
               </div>
               <div className="the-bwindi-club-was">
-                <span className="jost-medium-white-20px">{spanText64}</span>
-                <span className="jost-medium-saffron-20px">{spanText65}</span>
-                <span className="jost-medium-white-20px">{spanText66}</span>
-                <span className="jost-medium-saffron-20px">{spanText67}</span>
-                <span className="jost-medium-white-20px">{spanText68}</span>
-                <span className="jost-medium-saffron-20px">{spanText69}</span>
-                <span className="jost-medium-white-20px">{spanText70}</span>
-                <span className="jost-medium-saffron-20px">{spanText71}</span>
-                <span className="jost-medium-white-20px">{spanText72}</span>
-                <span className="jost-medium-saffron-20px">{spanText73}</span>
-                <span className="jost-medium-white-20px">{spanText74}</span>
-                <span className="jost-medium-saffron-20px">{spanText75}</span>
-                <span className="jost-medium-white-20px">{spanText76}</span>
+                <span className="jost-medium-white-20px liHe15">{spanText64}</span>
+                <span className="jost-medium-saffron-20px liHe15">{spanText65}</span>
+                <span className="jost-medium-white-20px liHe15">{spanText66}</span>
+                <span className="jost-medium-saffron-20px liHe15">{spanText67}</span>
+                <span className="jost-medium-white-20px liHe15">{spanText68}</span>
+                <span className="jost-medium-saffron-20px liHe15">{spanText69}</span>
+                <span className="jost-medium-white-20px liHe15">{spanText70}</span>
+                <span className="jost-medium-saffron-20px liHe15">{spanText71}</span>
+                <span className="jost-medium-white-20px liHe15">{spanText72}</span>
+                <span className="jost-medium-saffron-20px liHe15">{spanText73}</span>
+                <span className="jost-medium-white-20px liHe15">{spanText74}</span>
+                <span className="jost-medium-saffron-20px liHe15">{spanText75}</span>
+                <span className="jost-medium-white-20px liHe15">{spanText76}</span>
               </div>
             </div>
           </div>
-          <div className="customeContainer"><img className="line-11" src="/img/line-6@1x.svg" alt="" /></div>
-          <div className="verified-smart-contr valign-text-middle"><a href="https://polygonscan.com/token/0xdb33d738d328eb274ba41e99c00bd0e36781ce30" target="_blank">Verified Smart Contract Address:  <span>{verifiedSmartContr}</span></a> </div>
+          <div className="customeContainer VerifiedSmart">
+            <img className="line-11" src="/img/line-6@1x.svg" alt="" />
+            <div className="verified-smart-contr valign-text-middle">
+              <a href="https://polygonscan.com/token/0xdb33d738d328eb274ba41e99c00bd0e36781ce30" target="_blank">
+                Verified Smart Contract Address:  <span>{verifiedSmartContr}</span>
+              </a> 
+            </div>
+          </div>
+          
 
 
           {/* <img className="line-2-1" src="/img/line-2@1x.svg" alt=""/> */}
@@ -399,6 +397,7 @@ function HomePage({ props }) {
             <p className="copyright-1 valign-text-middle"><a href="https://bwindi.io/">{copyright}</a></p>
           </div> */}
         </div>
+        
         <hr className="line9 hrlineFull" />
         <div className="footerContainer">
           <div className="customeContainer">
