@@ -334,6 +334,7 @@ div#team {
 .terms-conditions-3.animate-enter12 {
   margin-left: -60px;
   margin-top: -280px;
+  width: auto;
 }
 .terms-conditions-2.screen .flex-col-5> div, .line9999 {
   margin-left: auto;
@@ -642,14 +643,20 @@ img.centerLine {
 .member_image img {
   display: block;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1230px;
   margin: 0 auto;
   margin-bottom: 30px;
   border-radius: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .member_image {
   padding-top: 100px;
+}
+
+div#mc_embed_signup .clear input, div#mc_embed_signup .clear input:hover, div#mc_embed_signup .clear input:focus, div#mc_embed_signup .clear input:active {
+  color: #000 !important;
 }
 
 /* Responsive Css  ALL */
@@ -835,6 +842,34 @@ div#buybwindi .membership-container {
   width: 100vw !important;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.terms-conditions-3.animate-enter12, .terms-conditions-3.animate-enter12 * {
+  font-size: 50px !important;
+}
+
+.title3.animate-enter {
+  font-size: 45px !important;
+}
+
+.menuRow {
+  flex-direction: column;
+}
+
+.navMain .overlap-group2-1 {
+  flex-wrap: wrap;
+}
+
+.navBrand {
+  margin-bottom: 15px;
+}
+
+.homepageVideo {
+  margin-top: 160px;
+}
+
+.member_image {
+  padding-top: 160px;
 }
 
 }/* and (max-width: 767px) */
