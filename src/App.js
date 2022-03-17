@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, BrowserRouter as Router, Route } from "react-router-dom";
+import { Routes, BrowserRouter as Router, Route, Link } from "react-router-dom";
 import WelcomePage from './components/WelcomePage';
 import HomePage from './components/HomePage';
 import TermsConditions from './components/TermsConditions';
@@ -57,7 +57,7 @@ const homePageData =
   welcomeToThe: "Welcome To The",
   spanText1: "BWINDI ",
   spanText2: "CLUB",
-  bwindiClubWasEsta: "Bwindi Club was established by Bwindi the Adventurer for members to own cool NFTs of him and his family members. Bwindi the Adventurer donates 10% to non-profit organizations that protect wildlife with a focus in Africa. The club is exclusive to its members who hold Bwindi NFTs, which allow them to benefit from discounts when buying or selling digital and physical assets on Bwindi’s marketplace. Members can benefit from major discounts and exclusive offers for all the digital assets developed by your360.io (Virtual Design-Build Contractor) in the Metaverse. Members will get 5% of Bwindi coin with a one-year lockup period. The club grants its members access to the Impenetrable Digital Jungle owned by Bwindi the Adventurer and located in the Ethereum blockchain. The Jungle includes Bwindi’s Treehouse, Marketplace, Safari Parks, Bwindi Club, and the Love Cave. Activities will be unlocked by the community through a progressive roadmap activation.",
+  bwindiClubWasEsta: "Bwindi Club was established by Bwindi the Adventurer for members to own cool NFTs of him and his family members. Bwindi the Adventurer donates 10% to non-profit organizations that protect wildlife with a focus in Africa. The club is exclusive to its members who hold Bwindi NFTs, which allow them to benefit from discounts when buying or selling digital and physical assets on Bwindi’s marketplace. Members can benefit from major discounts and exclusive offers for all the digital assets developed by <Link to='/about'>Go to Aboutpage</Link><a href='http://your360.io/' target='__blank'> your360.io </a> (Virtual Design-Build Contractor) in the Metaverse. Members will get 5% of Bwindi coin with a one-year lockup period. The club grants its members access to the Impenetrable Digital Jungle owned by Bwindi the Adventurer and located in the Ethereum blockchain. The Jungle includes Bwindi’s Treehouse, Marketplace, Safari Parks, Bwindi Club, and Love Cave. Activities will be unlocked by the community through a progressive roadmap activation.",
   membershipContainer: "/img/158-1@1x.png",
   membershipFee: "Membership Fee",
   theMembershipIsAc: <><br /><br />The membership is accessible by purchasing a Bwindi the Adventurer NFT that costs 0.1 ETH. The NFTs will be generated on seasonal bases, and they will be announced one week before posted for sales.<br /><br />There will be 60 Bwindi NFTs withheld every season from the sale for the founders of the Bwindi Club.</>,
@@ -98,7 +98,7 @@ const homePageData =
   spanText31: "Exchange: ",
   spanText32: <>UniSwap <br /></>,
   spanText33: <>Distribution Details:<br /></>,
-  spanText34: <>• Presale: 10%, no lockup<br />• Founders: 15%, 1-year lockup<br />• Development: 20%, 2-month lockup<br />• Governance: 10%, 1-year lockup<br />• Marketing and partners: 10%, 2-month lockup<br />• Donations to wildlife protection organizations: %10, 6-month lockup<br />• Bwindi Club Members: 5%, 1-year lockup<br />• Public Sale: 20%, no lockup</>,
+  spanText34: <>• Presale: 10%, 3-months lockup<br />• Founders: 15%, 6-months lockup<br />• Development: 20%, 2-months lockup<br />• Governance: 10%, 6-months lockup<br />• Marketing and partners: 10%, 2-month lockup<br />• Donations to wildlife protection organizations: %10, 6-month lockup<br />• Bwindi Club Members: 5%, 6-months lockup<br />• Public Sale: 20%, 2-months lockup</>,
   spanText35: <>July 2022<br /></>,
   spanText36: "First live streaming of safari trip from the Bwindi Impenetrable Forest accessed in the Impenetrable Digital Jungle with or without VR headsets.",
   spanText37: "July 2022",

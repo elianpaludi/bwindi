@@ -90,7 +90,7 @@ function HomePage({ props }) {
                 </video>
               </div>
               <div className="welcome fw5">
-                <div className="homepageText bwindi-club-was-esta valign-text-middle" style={{ lineHeight: 1.5, marginLeft: 0 }}>{bwindiClubWasEsta}</div>
+                <div className="homepageText bwindi-club-was-esta valign-text-middle" style={{ lineHeight: 1.5, marginLeft: 0 }}>{/*bwindiClubWasEsta*/} Bwindi Club was established by Bwindi the Adventurer for members to own cool NFTs of him and his family members. Bwindi the Adventurer donates 10% to non-profit organizations that protect wildlife with a focus in Africa. The club is exclusive to its members who hold Bwindi NFTs, which allow them to benefit from discounts when buying or selling digital and physical assets on Bwindi’s marketplace. Members can benefit from major discounts and exclusive offers for all the digital assets developed by <a href='http://your360.io/' target='__blank'> your360.io </a> (Virtual Design-Build Contractor) in the Metaverse. Members will get 5% of Bwindi token with a 6 months lockup period. The club grants its members access to the Impenetrable Digital Jungle owned by Bwindi the Adventurer and located in the Polygon blockchain. The Jungle includes Bwindi’s Treehouse, Marketplace, Safari Parks, Bwindi Club, and Love Cave. Activities will be unlocked by the community through a progressive roadmap activation.</div>
               </div>
             </div>
           </div>
