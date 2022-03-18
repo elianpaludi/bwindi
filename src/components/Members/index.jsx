@@ -58,6 +58,7 @@ function Members({ props }) {
             </div>
           </div>
         </div>
+            <a className="white">Active Soon</a>
       </div>
 
       <hr className="line9 hrlineFull" />

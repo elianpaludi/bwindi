@@ -144,7 +144,7 @@ const homePageData =
   spanText75: "Archytas:",
   spanText76: <> A servant leader, visionary, Metaverse and crypto advocate, and a developer.<br /></>,
   spanText77: " Elian: ",
-  spanText78: " A blockchain developer, Metaverse and crypto expert, and a researcher",
+  spanText78: " A blockchain developer, Metaverse and crypto expert, and a researcher.",
   verifiedSmartContr: "0xDB33D738d328EB274BA41e99C00Bd0e36781CE30",
   joinOurCommunity: "Join our community",
   stayTunedForMore: "Stay tuned for more details by subscribing to our newsletter!",

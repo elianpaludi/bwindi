@@ -35,7 +35,13 @@
   min-height: 234px;
   width: 394px;
 }
-
+.white{
+  color: white !important;
+  text-decoration: underline !important;
+  font-size:24px !important;
+  position:relative ;
+  bottom:45px;
+}
 .bwindi_logo-3 {
   height: 40px;
   margin-left: 22.9px;
