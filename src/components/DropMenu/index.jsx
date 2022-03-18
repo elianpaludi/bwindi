@@ -1,6 +1,6 @@
 import React from "react";
 import "./DropMenu.css";
-
+import { Link } from "react-router-dom";
 function DropMenu(props) {
   const { className } = props;
   
@@ -11,12 +11,12 @@ function DropMenu(props) {
     <div className="menuDrop dropdown dropdown-keep-open">
       <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MEMBERS </button>
       <div className="dropdown-menu overlap-group9 jost-semi-bold-white-131px" aria-labelledby="dropdownMenuButton">
-        <div className="overlap-group9-item">THE JUNGLE</div>
-          <div className="overlap-group9-item">BWINDI CLUB</div>
-          <div className="overlap-group9-item">MARKETPLACE</div>
-          <div className="overlap-group9-item">TREEHOUSE</div>
-          <div className="overlap-group9-item">SAFARI PARK</div>
-          <div className="overlap-group9-item">DATING CAVE</div>
+        <div className="overlap-group9-item"><Link to="/members">THE JUNGLE</Link></div>
+          <div className="overlap-group9-item"><Link to="/members">BWINDI CLUB</Link></div>
+          <div className="overlap-group9-item"><Link to="/members">MARKETPLACE</Link></div>
+          <div className="overlap-group9-item"><Link to="/members">TREEHOUSE</Link></div>
+          <div className="overlap-group9-item"><Link to="/members">SAFARI PARK</Link></div>
+          <div className="overlap-group9-item"><Link to="/members">DATING CAVE</Link></div>
         </div>
       </div>
 

@@ -235,6 +235,11 @@ div#team div {
   margin-bottom: 32px;
 }
 
+.yellow{
+  color: var(--saffron);
+  display:inline-block;
+}
+
 div#team {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;

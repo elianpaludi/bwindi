@@ -50,6 +50,8 @@ function HomePage({ props }) {
     spanText74,
     spanText75,
     spanText76,
+    spanText77,
+    spanText78,
     verifiedSmartContr,
     termsConditions,
     copyright,
@@ -183,21 +185,21 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">March 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 1: </span>
-                      New 2,000 male Bwindi the Adventurer are generated and posted on OpenSea for sale. (100% completed)
+                      New 2,000 male Bwindi the Adventurer are generated and posted on OpenSea for sale. <p className="yellow"> (100% Completed)</p> 
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      The launching of Bwindi Marketplace. (70% Completed)
+                      The launching of Bwindi Marketplace. <p className="yellow"> (70% Completed)</p> 
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      The Impenetrable Digital Jungle will be unlocked. (30% Completed)
+                      The Impenetrable Digital Jungle will be unlocked. <p className="yellow"> (30% Completed)</p> 
                     </p>
                   </div>
 
@@ -205,14 +207,14 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">April 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 2: </span>
-                      New 2,000 female Bwindi the Adventure will be generated and posted on OpenSea and Bwindi Marketplace for sale. (10% Completed)
+                      New 2,000 female Bwindi the Adventure will be generated and posted on OpenSea and Bwindi Marketplace for sale. <p className="yellow"> (10% Completed)</p> 
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Launching and listing of Bwindi token for swapping -See below the Tokenomics and our discord. (90% Completed)
+                      Launching and listing of Bwindi token for swapping -See below the Tokenomics and our discord. <p className="yellow"> (90% Completed)</p> 
                     </p>
                   </div>
 
@@ -242,14 +244,14 @@ function HomePage({ props }) {
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">July 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      First live streaming of safari trip from the Bwindi Impenetrable Forest accessed in the Impenetrable Digital Jungle with or without VR headsets. (0% Completed)
+                      First live streaming of safari trip from the Bwindi Impenetrable Forest accessed in the Impenetrable Digital Jungle with or without VR headsets. <p className="yellow"> (0% Completed)</p> 
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">July 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Digital breeding party between male and female Bwindis from Seasons 1 and 2. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations. (0% Completed)
+                      Digital breeding party between male and female Bwindis from Seasons 1 and 2. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations. <p className="yellow"> (0% Completed)</p> 
                     </p>
                   </div>
 
@@ -257,14 +259,14 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">August 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 3: </span>
-                      Newl 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea andBwindi Marketplace for sale. (0% Completed)
+                      Newl 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea andBwindi Marketplace for sale. <p className="yellow"> (0% Completed)</p> 
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">September 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Second live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets. (0% Completed)
+                      Second live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets. <p className="yellow"> (0% Completed)</p> 
                     </p>
                   </div>
 
@@ -272,14 +274,14 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">November 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 4: </span>
-                      New 2,000 male and 2,000 female Bwindis will be generated posted on OpenSea and Bwindi marketplace for sale. (0% Completed)
+                      New 2,000 male and 2,000 female Bwindis will be generated posted on OpenSea and Bwindi marketplace for sale. <p className="yellow"> (0% Completed)</p> 
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">December 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Third live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets. (0% Completed)
+                      Third live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets. <p className="yellow"> (0% Completed)</p> 
                     </p>
                   </div>
 
@@ -287,21 +289,21 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">January 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 5: </span>
-                      New 1,500 male and 1,500 female Bwindis are posted on OpenSea and Bwindi marketplace for sale. (0% Completed)
+                      New 1,500 male and 1,500 female Bwindis are posted on OpenSea and Bwindi marketplace for sale. <p className="yellow">  (0% Completed)</p> 
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">Feburary 2023</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Digital breeding party between male and female Bwindis from Seasons 3, 4, and 5. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations. (0% Completed)
+                      Digital breeding party between male and female Bwindis from Seasons 3, 4, and 5. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations. <p className="yellow"> (0% Completed)</p> 
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">March 2023</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Finalization of Bwindi DAO (Decentralized Autonomous Organization) to vote for March 2023 - March 2024 roadmap. (0% Completed)
+                      Finalization of Bwindi DAO (Decentralized Autonomous Organization) to vote for March 2023 - March 2024 roadmap. <p className="yellow"> (0% Completed)</p> 
                     </p>
                   </div>
 
@@ -355,6 +357,8 @@ function HomePage({ props }) {
                 <span className="jost-medium-white-20px liHe15">{spanText74}</span>
                 <span className="jost-medium-saffron-20px liHe15">{spanText75}</span>
                 <span className="jost-medium-white-20px liHe15">{spanText76}</span>
+                <span className="jost-medium-saffron-20px liHe15">{spanText77}</span>
+                <span className="jost-medium-white-20px liHe15">{spanText78}</span>
               </div>
             </div>
           </div>
