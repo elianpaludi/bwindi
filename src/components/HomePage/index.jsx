@@ -183,36 +183,36 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">March 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 1: </span>
-                      New 2,000 male Bwindi the Adventurer are generated and posted on OpenSea for sale.
+                      New 2,000 male Bwindi the Adventurer are generated and posted on OpenSea for sale. (100% completed)
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      The launching of Bwindi Marketplace.
+                      The launching of Bwindi Marketplace. (70% Completed)
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      The Impenetrable Digital Jungle will be unlocked.
+                      The Impenetrable Digital Jungle will be unlocked. (30% Completed)
                     </p>
                   </div>
 
                   <div className="montserrat-bold-white-20px animate-enter10" style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
+                    <p className="montserrat-bold-saffron-20px liHe15">April 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 2: </span>
-                      New 2,000 female Bwindi the Adventure will be generated and posted on OpenSea and Bwindi Marketplace for sale.
+                      New 2,000 female Bwindi the Adventure will be generated and posted on OpenSea and Bwindi Marketplace for sale. (10% Completed)
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px liHe15">Jun 2022</p>
+                    <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Launching and listing of Bwindi coin on Uniswap -See below the Tokenomics.
+                      Launching and listing of Bwindi token for swapping -See below the Tokenomics and our discord. (90% Completed)
                     </p>
                   </div>
 
@@ -226,9 +226,9 @@ function HomePage({ props }) {
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Total Supply: </span>
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">100,000,000</span><br />
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Contract Address: </span>
-                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon</span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon, follow our us on discord</span><br />
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Exchange: </span>
-                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">UniSwap</span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon, follow our us on discord</span><br />
                         <span style={{ lineHeight: 1.5 }} className="span1-1 montserrat-semi-bold-saffron-16px">Distribution Details: </span><br />
                         <span style={{ lineHeight: 1.5 }} className="span1-1 montserrat-medium-white-16px">{spanText34}</span>
                       </p>
@@ -242,14 +242,14 @@ function HomePage({ props }) {
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">July 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      First live streaming of safari trip from the Bwindi Impenetrable Forest accessed in the Impenetrable Digital Jungle with or without VR headsets.
+                      First live streaming of safari trip from the Bwindi Impenetrable Forest accessed in the Impenetrable Digital Jungle with or without VR headsets. (0% Completed)
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">July 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Digital breeding party between male and female Bwindis from Seasons 1 and 2. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations.
+                      Digital breeding party between male and female Bwindis from Seasons 1 and 2. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations. (0% Completed)
                     </p>
                   </div>
 
@@ -257,14 +257,14 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">August 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 3: </span>
-                      Newl 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea andBwindi Marketplace for sale.
+                      Newl 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea andBwindi Marketplace for sale. (0% Completed)
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">September 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Second live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets.
+                      Second live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets. (0% Completed)
                     </p>
                   </div>
 
@@ -272,14 +272,14 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">November 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 4: </span>
-                      New 2,000 male and 2,000 female Bwindis will be generated posted on OpenSea and Bwindi marketplace for sale.
+                      New 2,000 male and 2,000 female Bwindis will be generated posted on OpenSea and Bwindi marketplace for sale. (0% Completed)
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">December 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Third live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets.
+                      Third live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets. (0% Completed)
                     </p>
                   </div>
 
@@ -287,21 +287,21 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">January 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 5: </span>
-                      New 1,500 male and 1,500 female Bwindis are posted on OpenSea and Bwindi marketplace for sale.
+                      New 1,500 male and 1,500 female Bwindis are posted on OpenSea and Bwindi marketplace for sale. (0% Completed)
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">Feburary 2023</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Digital breeding party between male and female Bwindis from Seasons 3, 4, and 5. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations.
+                      Digital breeding party between male and female Bwindis from Seasons 3, 4, and 5. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations. (0% Completed)
                     </p>
                   </div>
 
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">March 2023</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Finalization of Bwindi DAO (Decentralized Autonomous Organization) to vote for March 2023 - March 2024 roadmap.
+                      Finalization of Bwindi DAO (Decentralized Autonomous Organization) to vote for March 2023 - March 2024 roadmap. (0% Completed)
                     </p>
                   </div>
 
