@@ -231,6 +231,11 @@ div#team div {
   /*text-align: right;*/
 }
 
+.discordTag{
+  color:rgb(142, 142, 255);
+  text-decoration: underline !important;
+}
+
 .homepageText {
   margin-bottom: 32px;
 }

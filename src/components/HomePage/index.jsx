@@ -214,7 +214,7 @@ function HomePage({ props }) {
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Launching and listing of Bwindi token for swapping -See below the Tokenomics and our discord. <p className="yellow"> (90% Completed)</p> 
+                      Launching and listing of Bwindi token for swapping -See below the Tokenomics and our <a className="discordTag" href="https://discord.gg/SaTJ6hPd">discord.</a> <p className="yellow"> (90% Completed)</p> 
                     </p>
                   </div>
 
@@ -228,9 +228,9 @@ function HomePage({ props }) {
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Total Supply: </span>
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">100,000,000</span><br />
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Contract Address: </span>
-                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon, follow our us on discord</span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon, follow our us on <a className="discordTag" href="https://discord.gg/SaTJ6hPd">discord.</a></span><br />
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Exchange: </span>
-                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon, follow our us on discord</span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon, follow our us on <a className="discordTag" href="https://discord.gg/SaTJ6hPd">discord.</a></span><br />
                         <span style={{ lineHeight: 1.5 }} className="span1-1 montserrat-semi-bold-saffron-16px">Distribution Details: </span><br />
                         <span style={{ lineHeight: 1.5 }} className="span1-1 montserrat-medium-white-16px">{spanText34}</span>
                       </p>
