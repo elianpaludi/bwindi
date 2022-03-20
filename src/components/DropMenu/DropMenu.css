@@ -60,7 +60,7 @@
 }
 
 .overlap-group9-item:hover {
-  color: #F8BA35
+  color: #F8BA35 !important;
 }
 
 .drop-menu.drop-menu-1 {

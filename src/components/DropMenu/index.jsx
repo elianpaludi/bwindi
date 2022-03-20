@@ -16,7 +16,7 @@ function DropMenu(props) {
           <div className="overlap-group9-item"><Link to="/members">MARKETPLACE</Link></div>
           <div className="overlap-group9-item"><Link to="/members">TREEHOUSE</Link></div>
           <div className="overlap-group9-item"><Link to="/members">SAFARI PARK</Link></div>
-          <div className="overlap-group9-item"><Link to="/members">DATING CAVE</Link></div>
+          <div className="overlap-group9-item"><Link to="/members">LOVE CAVE</Link></div>
         </div>
       </div>
 

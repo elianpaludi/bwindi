@@ -32,11 +32,11 @@ function Records({ props }) {
           </div>
           <div className="navMain">
             <div className="overlap-group2-1 jost-semi-bold-white-13px" style={{ marginLeft: '220px' }}>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#buybwindi">{buy}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#about">{about}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#jungle">{jungle}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#roadmap">{roadmap}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#team">{team}</a></div>
+              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#buybwindi">{buy}</a></div>
+              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#about">{about}</a></div>
+              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#jungle">{jungle}</a></div>
+              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#roadmap">{roadmap}</a></div>
+              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#team">{team}</a></div>
               <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/gallery">{gallery}</Link></div>
               <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/records">{records}</Link></div>
               <DropMenu />
@@ -46,13 +46,22 @@ function Records({ props }) {
       </div>
 
       <div className="flex-column-center" style={{ flexGrow: 1 }}>
-        <div className="flex-row-center w-full" style={{ marginTop: '20px' }}>
-          <div className="bwindi-clubs animate-enter1 aaa" show-on-scroll="true">
-            {ActivatedSoon}
-          </div>
-        </div>
+      <div className="records_container">
+           <h1 className="recordsTitle">
+             <span className="recolor-blue">Prove</span>
+             <span className="recolor-yellow">nance</span>
+             </h1>
+
+           <h3 className="sub-text_records">This page presents the provenance record of each season-1 of male Bwindis. Each Bwindi image is minted on the polygon chain.</h3>
+
+           <h3 className="sub-text_records">Contract Address: <a className="hyperlink-hover" id="address" target="blank" href="https://polygonscan.com/token/0xdb33d738d328eb274ba41e99c00bd0e36781ce30">0xDB33D738d328EB...6781CE30</a></h3>
+           <h3 className="sub-text_records"><a className="hyperlink-hover" target="blank" href="https://ipfs.io/ipfs/QmQG6mnuf2H8232uDtr2tzJmHmcVHfQZYP9gmpaWfwpEJ6/concatedHash.json">Concatenated Hash</a></h3>
+           <h3 className="sub-text_records"><a className="hyperlink-hover" target="blank" href="https://ipfs.io/ipfs/QmQG6mnuf2H8232uDtr2tzJmHmcVHfQZYP9gmpaWfwpEJ6/provenanceHash.json">Provenance Hash</a></h3>
+
+           <h3 className="sub-text_records">Provenance Record: The table below lists the original index, assigned Bwindi Token ID, SHA256 Hash output and IPFS link of each Male Bwindi from Season-1.</h3>
       </div>
 
+      </div>
       <hr className="line9 hrlineFull" />
         <div className="footerContainer">
           <div className="customeContainer">
@@ -101,6 +110,7 @@ function Records({ props }) {
             </div>
         </div>
         </div>
+
 
 
     </div>

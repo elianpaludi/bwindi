@@ -8,6 +8,11 @@
 .screen a {
   display: contents;
   text-decoration: none;
+  
+}
+
+.screen a[href="http://your360.io/"]{
+  color:#5168a3 !important;
 }
 
 .container-center-horizontal {
@@ -156,8 +161,12 @@ div#team div {
 }
 
 .overlap-group2-1 .overlap-group2-item-1 a:hover {
-  color: #F8BA35;
+  color: #F8BA35 !important;
   text-decoration: underline;
+}
+
+.recolor-blue{
+  color:#4D6194 !important;
 }
 
 .line90.hrline {
@@ -945,3 +954,18 @@ div#buybwindi .membership-container {
 
 } /* (max-width: 360px)  */
    
+
+@media (max-width:410px) {
+  .jost-semi-bold-white-15px{
+    font-size: 11px !important;
+  }
+
+  .customeContainer{
+    padding: 0;
+  }
+}
+@media (max-width:357px) {
+  .jost-semi-bold-white-15px{
+    font-size: 10.5px !important;
+  }
+}

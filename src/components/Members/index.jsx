@@ -33,11 +33,11 @@ function Members({ props }) {
           </div>
           <div className="navMain">
             <div className="overlap-group2-1 jost-semi-bold-white-13px" style={{ marginLeft: '220px' }}>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#buybwindi">{buy}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#about">{about}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#jungle">{jungle}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#roadmap">{roadmap}</a></div>
-              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#team">{team}</a></div>
+              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#buybwindi">{buy}</a></div>
+              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#about">{about}</a></div>
+              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#jungle">{jungle}</a></div>
+              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#roadmap">{roadmap}</a></div>
+              <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#team">{team}</a></div>
               <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/gallery">{gallery}</Link></div>
               <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/records">{records}</Link></div>
               <DropMenu />

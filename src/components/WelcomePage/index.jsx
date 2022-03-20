@@ -35,7 +35,7 @@ function WelcomePage({ props }) {
         </div>
 
         <div className="flex-row-center w-full" style={{ marginTop: '20px' }}>
-          <Link to="/homepage"><img className="group-14" src={group14} alt="" /></Link>
+          <Link to="/bwindi-club-mainpage"><img className="group-14" src={group14} alt="" /></Link>
         </div>
 
         <div className="flex-row-center w-full" style={{ marginTop: '10px' }}>

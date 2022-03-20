@@ -69,11 +69,11 @@ function HomePage({ props }) {
             </div>
             <div className="navMain">
               <div className="overlap-group2-1 jost-semi-bold-white-13px" style={{ marginLeft: '220px' }}>
-                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#buybwindi">{buy}</a></div>
-                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#about">{about}</a></div>
-                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#jungle">{jungle}</a></div>
-                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#roadmap">{roadmap}</a></div>
-                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/homepage#team">{team}</a></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#buybwindi">{buy}</a></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#about">{about}</a></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#jungle">{jungle}</a></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#roadmap">{roadmap}</a></div>
+                <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><a href="/bwindi-club-mainpage#team">{team}</a></div>
                 <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/gallery">{gallery}</Link></div>
                 <div className="overlap-group2-item-1 valign-text-middle" style={{ width: '80px' }}><Link to="/records">{records}</Link></div>
                 <DropMenu />
@@ -92,7 +92,7 @@ function HomePage({ props }) {
                 </video>
               </div>
               <div className="welcome fw5">
-                <div className="homepageText bwindi-club-was-esta valign-text-middle" style={{ lineHeight: 1.5, marginLeft: 0 }}>{/*bwindiClubWasEsta*/} Bwindi Club was established by Bwindi the Adventurer for members to own cool NFTs of him and his family members. Bwindi the Adventurer donates 10% to non-profit organizations that protect wildlife with a focus in Africa. The club is exclusive to its members who hold Bwindi NFTs, which allow them to benefit from discounts when buying or selling digital and physical assets on Bwindi’s marketplace. Members can benefit from major discounts and exclusive offers for all the digital assets developed by <a href='http://your360.io/' target='__blank'> your360.io </a> (Virtual Design-Build Contractor) in the Metaverse. Members will get 5% of Bwindi token with a 6 months lockup period. The club grants its members access to the Impenetrable Digital Jungle owned by Bwindi the Adventurer and located in the Polygon blockchain. The Jungle includes Bwindi’s Treehouse, Marketplace, Safari Parks, Bwindi Club, and Love Cave. Activities will be unlocked by the community through a progressive roadmap activation.</div>
+                <div className="homepageText bwindi-club-was-esta valign-text-middle" style={{ lineHeight: 1.5, marginLeft: 0 }}>{/*bwindiClubWasEsta*/} Bwindi Club was established by Bwindi the Adventurer for members to own cool N F T s of him and his family members. Bwindi the Adventurer donates 10% to non-profit organizations that protect wildlife with a focus in Africa. The club is exclusive to its members who hold Bwindi NFTs, which allow them to benefit from discounts when buying or selling digital and physical assets on Bwindi’s marketplace. Members can benefit from major discounts and exclusive offers for all the digital assets developed by <a href='http://your360.io/' target='__blank'> your360.io </a> (Virtual Design-Build Contractor) in the Metaverse. Members will get 5% of Bwindi token with a 6 months lockup period. The club grants its members access to the Impenetrable Digital Jungle owned by Bwindi the Adventurer and located in the Polygon blockchain. The Jungle includes Bwindi’s Treehouse, Marketplace, Safari Parks, Bwindi Club, and Love Cave. Activities will be unlocked by the community through a progressive roadmap activation.</div>
               </div>
             </div>
           </div>
@@ -214,7 +214,7 @@ function HomePage({ props }) {
                   <div style={{ marginTop: '20px' }}>
                     <p className="montserrat-bold-saffron-20px liHe15">May 2022</p>
                     <p className="jost-medium-white-20px liHe15">
-                      Launching and listing of Bwindi token for swapping -See below the Tokenomics and our <a target="blank" className="discordTag" href="https://discord.gg/SaTJ6hPd">discord.</a> <p className="yellow"> (90% Completed)</p> 
+                      Launching and listing of Bwindi token for swapping -See below the Tokenomics and <a target="blank" className="discordTag" href="https://discord.gg/SaTJ6hPd">discord.</a> <p className="yellow"> (90% Completed)</p> 
                     </p>
                   </div>
 
@@ -222,15 +222,15 @@ function HomePage({ props }) {
                     <div>
                       <p className="line-height-none">
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Name: </span>
-                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Biwindi</span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Bwindi</span><br />
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Symbol: </span>
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">BWD</span><br />
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Total Supply: </span>
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">100,000,000</span><br />
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Contract Address: </span>
-                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon, follow our us on <a target="blank" className="discordTag" href="https://discord.gg/SaTJ6hPd">discord.</a></span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon, follow us on <a target="blank" className="discordTag" href="https://discord.gg/SaTJ6hPd">discord.</a></span><br />
                         <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-semi-bold-saffron-16px">Exchange: </span>
-                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon, follow our us on <a target="blank" className="discordTag" href="https://discord.gg/SaTJ6hPd">discord.</a></span><br />
+                        <span style={{ lineHeight: 1.5 }} className="span-1 montserrat-medium-white-16px">Published Soon, follow us on <a target="blank" className="discordTag" href="https://discord.gg/SaTJ6hPd">discord.</a></span><br />
                         <span style={{ lineHeight: 1.5 }} className="span1-1 montserrat-semi-bold-saffron-16px">Distribution Details: </span><br />
                         <span style={{ lineHeight: 1.5 }} className="span1-1 montserrat-medium-white-16px">{spanText34}</span>
                       </p>
@@ -259,7 +259,7 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">August 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 3: </span>
-                      Newl 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea andBwindi Marketplace for sale. <p className="yellow"> (0% Completed)</p> 
+                      New 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea and Bwindi Marketplace for sale. <p className="yellow"> (0% Completed)</p> 
                     </p>
                   </div>
 
@@ -274,7 +274,7 @@ function HomePage({ props }) {
                     <p className="montserrat-bold-saffron-20px liHe15">November 2022</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 4: </span>
-                      New 2,000 male and 2,000 female Bwindis will be generated posted on OpenSea and Bwindi marketplace for sale. <p className="yellow"> (0% Completed)</p> 
+                      New 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea and Bwindi marketplace for sale. <p className="yellow"> (0% Completed)</p> 
                     </p>
                   </div>
 
@@ -286,10 +286,10 @@ function HomePage({ props }) {
                   </div>
 
                   <div className="montserrat-bold-white-20px animate-enter10" style={{ marginTop: '20px' }}>
-                    <p className="montserrat-bold-saffron-20px liHe15">January 2022</p>
+                    <p className="montserrat-bold-saffron-20px liHe15">January 2023</p>
                     <p className="jost-medium-white-20px liHe15">
                       <span className="jost-semi-bold-saffron-20px">Season 5: </span>
-                      New 1,500 male and 1,500 female Bwindis are posted on OpenSea and Bwindi marketplace for sale. <p className="yellow">  (0% Completed)</p> 
+                      New 1,500 male and 1,500 female Bwindis will be generated and posted on OpenSea and Bwindi marketplace for sale. <p className="yellow">  (0% Completed)</p> 
                     </p>
                   </div>
 

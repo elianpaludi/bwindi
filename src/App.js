@@ -23,7 +23,7 @@ function App() {
 
         <Route path="/marketplace" element={<Marketplace props={marketplaceData} />} />
 
-        <Route path="/homepage" element={<HomePage props={homePageData} />} />
+        <Route path="/bwindi-club-mainpage" element={<HomePage props={homePageData} />} />
 
         <Route path="/terms-conditions" element={<TermsConditions props={termsConditionsData} />} />
 
@@ -57,12 +57,12 @@ const homePageData =
   welcomeToThe: "Welcome To The",
   spanText1: "BWINDI ",
   spanText2: "CLUB",
-  bwindiClubWasEsta: "Bwindi Club was established by Bwindi the Adventurer for members to own cool NFTs of him and his family members. Bwindi the Adventurer donates 10% to non-profit organizations that protect wildlife with a focus in Africa. The club is exclusive to its members who hold Bwindi NFTs, which allow them to benefit from discounts when buying or selling digital and physical assets on Bwindi’s marketplace. Members can benefit from major discounts and exclusive offers for all the digital assets developed by <Link to='/about'>Go to Aboutpage</Link><a href='http://your360.io/' target='__blank'> your360.io </a> (Virtual Design-Build Contractor) in the Metaverse. Members will get 5% of Bwindi coin with a one-year lockup period. The club grants its members access to the Impenetrable Digital Jungle owned by Bwindi the Adventurer and located in the Ethereum blockchain. The Jungle includes Bwindi’s Treehouse, Marketplace, Safari Parks, Bwindi Club, and Love Cave. Activities will be unlocked by the community through a progressive roadmap activation.",
+  bwindiClubWasEsta: "Bwindi Club was established by Bwindi the Adventurer for members to own cool NFTs of him and his family members. Bwindi the Adventurer donates 10% to non-profit organizations that protect wildlife with a focus in Africa. The club is exclusive to its members who hold Bwindi NFTs, which allow them to benefit from discounts when buying or selling digital and physical assets on Bwindi’s marketplace. Members can benefit from major discounts and exclusive offers for all the digital assets developed by <> <Link to='/about'>Go to Aboutpage</Link><a href='http://your360.io/' target='__blank'> your360.io </a> </>(Virtual Design-Build Contractor) in the Metaverse. Members will get 5% of Bwindi coin with a one-year lockup period. The club grants its members access to the Impenetrable Digital Jungle owned by Bwindi the Adventurer and located in the Ethereum blockchain. The Jungle includes Bwindi’s Treehouse, Marketplace, Safari Parks, Bwindi Club, and Love Cave. Activities will be unlocked by the community through a progressive roadmap activation.",
   membershipContainer: "/img/158-1@1x.png",
   membershipFee: "Membership Fee",
   theMembershipIsAc: <><br /><br />The membership is accessible by purchasing a Bwindi the Adventurer NFT that costs 0.1 ETH. The NFTs will be generated on seasonal bases, and they will be announced one week before posted for sales.<br /><br />There will be 60 Bwindi NFTs withheld every season from the sale for the founders of the Bwindi Club.</>,
   buyABwindi: "Buy A Bwindi",
-  initially2000Mal: "Initially, 2,000 male Bwindi will be released and available on OpenSea for sale. The NTFs will also be available on Bwindi Marketplace as soon as it is launched. Bwindi the Adventurer is still building his marketplace and the grand opening date can be found in the progressive roadmap.",
+  initially2000Mal: "Initially, 2,000 male Bwindi will be released and available on OpenSea for sale. The NFTs will also be available on Bwindi Marketplace as soon as it is launched. Bwindi the Adventurer is still building his marketplace and the grand opening date can be found in the progressive roadmap.",
   buyABwindiOnOpensea: "Buy A Bwindi On Opensea",
   spanText3: <>Each Bwindi NFT is unique and programmatically generated from more than 80 traits per season. They include expressions, clothing, hair style and headwear, jewelry, accessories, trip locations, and much more. Each Bwindi NFT is unique and rare.<br /></>,
   spanText4: <><br /></>,
@@ -88,16 +88,16 @@ const homePageData =
   spanText21: <>Jun 2022<br /></>,
   spanText22: "Launching and listing of Bwindi token for swapping -See below the Tokenomics. (90% Completed)",
   spanText23: "Name:",
-  spanText24: <> Bwindi<br /></>,
+  spanText24: <> Bwndi<br /></>,
   spanText25: "Symbol:",
   spanText26: <> TBA<br /></>,
   spanText27: "Total Supply:",
   spanText28: <> 100,000,000<br /></>,
   spanText29: "Contract Address:",
   spanText31: "Exchange: ",
-  spanText32: <>Published soon, follow our us on discord <br /></>,
+  spanText32: <>Published soon, follow us on discord <br /></>,
   spanText33: <>Distribution Details:<br /></>,
-  spanText34: <>• Presale: No lockup <><p className="yellow">(Presale will start in March 2022) </p></><br />• Founders: 15%,12-months lockup<br />• Development: 20%, 2-months lockup<br />• Governance: 10%, 12-months lockup<br />• Marketing and partners: 10%, 2-month lockup<br />• Donations to wildlife protection organizations: %10, 6-month lockup<br />• Bwindi Club Members: 5%, 12-months lockup<br />• Public Sale: 20%, 1-months lockup <><p className="yellow">(Presale will start in April 2022) </p></> <br />• After swapping Bwindi tokens, there is a 2-months lockup during first 12 months</>,
+  spanText34: <>• Presale: No lockup <><p className="yellow">(Presale will start in March 2022) </p></><br />• Founders: 15%, 12-month lockup<br />• Development: 20%, 2-month lockup<br />• Governance: 10%, 12-month lockup<br />• Marketing and partners: 10%, 2-month lockup<br />• Donations to wildlife protection organizations: %10, 6-month lockup<br />• Bwindi Club Members: 5%, 12-month lockup<br />• Public Sale: 20%, 1-month lockup <><p className="yellow">(Presale will start in April 2022) </p></> <br />• After swapping Bwindi tokens, there is a 2-month lockup during the first 12 months</>,
   spanText35: <>July 2022<br /></>,
   spanText36: "First live streaming of safari trip from the Bwindi Impenetrable Forest accessed in the Impenetrable Digital Jungle with or without VR headsets.",
   spanText37: "July 2022",
@@ -105,13 +105,13 @@ const homePageData =
   spanText39: "Digital breeding party between male and female Bwindis from Seasons 1 and 2. Each couple who chose to match will be able to breed 1 Bwindi NFT using our online breeding program. The generated Bwindi NFT will be donated to non-profit wildlife organizations.",
   spanText40: <>August 2022<br /></>,
   spanText41: "Season 3:",
-  spanText42: " Newl 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea andBwindi Marketplace for sale.",
+  spanText42: " New 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea and Bwindi Marketplace for sale.",
   spanText43: <>September 2022<br /></>,
   spanText44: "Second live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets",
   spanText45: <>November 2022<br /></>,
   spanText46: "Season 4:",
   spanText47: " ",
-  spanText48: "New 2,000 male and 2,000 female Bwindis will be generated posted on OpenSea and Bwindi marketplace for sale.",
+  spanText48: "New 2,000 male and 2,000 female Bwindis will be generated and posted on OpenSea and Bwindi marketplace for sale.",
   spanText49: <>December 2022<br /></>,
   spanText50: "Third live streaming of safari trip from a safari park voted by the community and accessed in the Impenetrable Digital Jungle with or without VR headsets.",
   spanText51: <>January 2023<br /></>,
@@ -125,12 +125,12 @@ const homePageData =
   spanText59: "Finalization of Bwindi DAO (Decentralized Autonomous Organization) to vote for March 2023 - March 2024 roadmap.",
   spanText60: "*",
   spanText61: "The Roadmap Activations are subject to changes based on community votes, weather and parks conditions, authorities’ approvals, and any force majeure that may occur.",
-  theTeamWillKeepD: "The team will keep developing cool tools and entertainments during the Roadman Activations period.",
+  theTeamWillKeepD: "The team will keep developing cool tools and entertainments during the Roadmap Activations period.",
   rectangle32: "/img/rectangle-32@1x.png",
   rectangle37: "/img/rectangle-32@1x.png",
   spanText62: "The ",
   spanText63: "Team",
-  spanText64: <>The Bwindi Club was created by six members who care for wildlife. Our team bridges and intersections addressing different views, interests, and concerns. <br /></>,
+  spanText64: <>The Bwindi Club was created by six members who care for wildlife. Our team members create bridges and intersections addressing different views, interests, and concerns. <br /></>,
   spanText65: "Bigboibi: ",
   spanText66: <>Wildlife visionary, owner of Minecraft safari, and future wildlife expert.<br /></>,
   spanText67: "Nisdasis: ",
@@ -151,7 +151,7 @@ const homePageData =
   yourEMail: "Your e-mail",
   subscribe: "Subscribe",
   termsConditions: "Terms & Conditions",
-  copyright: "Copyright © 2021 Bwindi Club",
+  copyright: "Copyright © 2022 Bwindi Club by Archytas Technologies Corp",
 };
 
 const dropMenu2Data =
@@ -175,7 +175,7 @@ const termsConditionsData =
   yourEMail: "Your e-mail",
   subscribe: "Subscribe",
   termsConditions: "Terms & Conditions",
-  copyright: "Copyright © 2021 Bwindi Club",
+  copyright: "Copyright © 2022 Bwindi Club by Archytas Technologies Corp",
   buy: "BUY",
   about: "ABOUT",
   jungle: "JUNGLE",
@@ -208,7 +208,7 @@ const membersData =
   inputPlaceholder: "Your e-mail",
   subscribe: "Subscribe",
   termsConditions: "Terms & Conditions",
-  copyright: "Copyright © 2021 Bwindi Club",
+  copyright: "Copyright © 2022 Bwindi Club by Archytas Technologies Corp",
 };
 
 const recordsData = {
@@ -229,7 +229,7 @@ const recordsData = {
   yourEMail: "Your e-mail",
   subscribe: "Subscribe",
   termsConditions: "Terms & Conditions",
-  copyright: "Copyright © 2021 Bwindi Club",
+  copyright: "Copyright © 2022 Bwindi Club by Archytas Technologies Corp",
 };
 
 const galleryData = {
@@ -250,7 +250,7 @@ const galleryData = {
   yourEMail: "Your e-mail",
   subscribe: "Subscribe",
   termsConditions: "Terms & Conditions",
-  copyright: "Copyright © 2021 Bwindi Club",
+  copyright: "Copyright © 2022 Bwindi Club by Archytas Technologies Corp",
 };
 
 const welcomePageData = {
@@ -266,7 +266,7 @@ const welcomePageData = {
   yourEMail: "Your e-mail",
   subscribe: "Subscribe",
   termsConditions: "Terms & Conditions",
-  copyright: "Copyright © 2021 Bwindi Club",
+  copyright: "Copyright © 2022 Bwindi Club by Archytas Technologies Corp",
 };
 
 const marketplaceData = {
@@ -287,7 +287,7 @@ const marketplaceData = {
   yourEMail: "Your e-mail",
   subscribe: "Subscribe",
   termsConditions: "Terms & Conditions",
-  copyright: "Copyright © 2021 Bwindi Club",
+  copyright: "Copyright © 2022 Bwindi Club by Archytas Technologies Corp",
 };
 
 const mainPageData = {
@@ -310,5 +310,5 @@ const mainPageData = {
   yourEMail: "Your e-mail",
   subscribe: "Subscribe",
   termsConditions: "Terms & Conditions",
-  copyright: "Copyright © 2021 Bwindi Club",
+  copyright: "Copyright © 2022 Bwindi Club by Archytas Technologies Corp",
 };
