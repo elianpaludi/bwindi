@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Routes, BrowserRouter as Router, Route, Link, BrowserRouter } from "react-router-dom";
 import WelcomePage from './components/WelcomePage';
 import HomePage from './components/HomePage';
 import TermsConditions from './components/TermsConditions';
@@ -11,7 +11,7 @@ import Marketplace from './components/Marketplace';
 
 function App() {
   return (
-    <Router>
+    <Router history={BrowserRouter}>
 
       <Routes>
 

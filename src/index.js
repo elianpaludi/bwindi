@@ -4,7 +4,7 @@ import App from './App';
 import "./globals.css"
 import "./styleguide.css"
 
-ReactDOM.render(
+ReactDOM.hydrate(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
